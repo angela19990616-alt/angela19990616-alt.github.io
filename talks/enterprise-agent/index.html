@@ -296,7 +296,7 @@ for (const i of [4,13,14]) scenes[i].hot=[];
 const cap=document.createElement('section');cap.id='story-caption';cap.setAttribute('aria-label','本页说明与独立流程入口');$('stage').appendChild(cap);
 const renderBeforeRevision=render;render=function(){renderBeforeRevision();const s=scenes[idx];cap.replaceChildren();cap.hidden=!!(s.blank||s.chat);if(cap.hidden)return;
  if(s.comparison){const row=document.createElement('div');row.className='comparison-row';for(const [title,text,key] of s.comparison){const b=document.createElement('button');b.className='comparison-card';b.innerHTML='<strong></strong><span></span><em>点击展开完整流程 ↗</em>';b.querySelector('strong').textContent=title;b.querySelector('span').textContent=text;b.onclick=()=>openSheet(key,b);row.appendChild(b)}cap.appendChild(row)}
- else{if(s.quote){const q=document.createElement('div');q.className='caption-quote';q.textContent=s.quote;cap.appendChild(q)}if(s.small){const t=document.createElement('div');t.className='caption-small';t.textContent=s.small;cap.appendChild(t)}const row=document.createElement('div');row.className='detail-buttons';for(const [label,key] of s.details||[]){const b=document.createElement('button');b.className='detail-open';b.textContent=label+' ↗';b.onclick=()=>openSheet(key,b);row.appendChild(b)}cap.appendChild(row)}
+ else{if(s.quote){const q=document.createElement('div');q.className='caption-quote';q.textContent=s.quote;cap.appendChild(q)}if(s.small){const t=document.createElement('div');t.className='caption-small';t.textContent=s.small;cap.appendChild(t)}const row=document.createElement('div');row.className='detail-buttons';for(const [label,key] of s.details||[]){const b=document.createElement('button');b.className='detail-open';b.textContent=label+' ↗';b.onclick=()=>openSheet(key,b);row.appendChild(b)}if(row.childElementCount)cap.appendChild(row);if(!cap.textContent.trim())cap.hidden=true}
  // Index captions follow edited titles.
  const opt=$('scene-index')?.querySelector('option[value="'+idx+'"]');if(opt)opt.textContent='主线 '+(idx+1)+' · '+s.title;
 };
@@ -793,7 +793,7 @@ $('subtitle-save').onclick=()=>{saveSubtitleEdits();};$('subtitle-cancel').oncli
 const editSubButton=document.createElement('button');editSubButton.id='subtitle-edit-button';editSubButton.textContent=' 手动编辑字幕';editSubButton.onclick=openSubtitleEditor;voiceControls.querySelector('.voice-controls-row').appendChild(editSubButton);
 $('subtitle-export').onclick=async()=>{saveSubtitleEdits();const b=$('subtitle-export');b.disabled=true;try{
  const bytes=Uint8Array.from(atob(subtitleTemplateGzip),c=>c.charCodeAt(0));const stream=new Blob([bytes]).stream().pipeThrough(new DecompressionStream('gzip'));let text=await new Response(stream).text();text=text.replace('__IMAGE_OBJECT__',()=>JSON.stringify(images)).replace('__LINGXI_OBJECT__',()=>JSON.stringify(lingxiKitAssets));
- const style=$('manual-editor-style').outerHTML;const code=$('manual-editor-script').textContent;const edits=JSON.stringify(manualEdits).replace(/</g,'\\u003c');const tail=style+'<script id="manual-editor-script">'+code+'<'+ '/script><script>applyManualEdits('+edits+');<'+ '/script>';
+ const layoutStyles=$('empty-caption-layout')?.outerHTML||'';const layoutScript=document.querySelector('script[src="./presentation-layout.js"]')?.outerHTML||'';text=text.replace('</head>',()=>layoutStyles+'</head>').replace('</body>',()=>layoutScript+'</body>');const style=$('manual-editor-style').outerHTML;const code=$('manual-editor-script').textContent;const edits=JSON.stringify(manualEdits).replace(/</g,'\\u003c');const tail=style+'<script id="manual-editor-script">'+code+'<'+ '/script><script>applyManualEdits('+edits+');<'+ '/script>';
  text=text.replace('</body>',()=>tail+'</body>');const url=URL.createObjectURL(new Blob([text],{type:'text/html;charset=utf-8'}));const a=document.createElement('a');a.href=url;a.download='企业Agent分享_我修改的字幕.html';document.body.appendChild(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(url),30000);$('subtitle-feedback').textContent='已导出 HTML；使用新文件即可保留你的修改。';
  }catch(e){$('subtitle-feedback').textContent='导出未成功，请用新版 Chrome 或 Edge 重试；当前修改仍保留在页面中。';}finally{b.disabled=false;}};
 window.addEventListener('keydown',e=>{if(subtitleEditor.hidden)return;if(e.key==='Escape'){e.preventDefault();closeSubtitleEditor();}if(e.key==='Tab'){const all=[...subtitleEditor.querySelectorAll('button:not(:disabled),textarea')];const first=all[0],last=all.at(-1);if(e.shiftKey&&document.activeElement===first){e.preventDefault();last.focus();}else if(!e.shiftKey&&document.activeElement===last){e.preventDefault();first.focus();}}e.stopImmediatePropagation();},true);
@@ -826,4 +826,12 @@ $('voice-pause').onclick=()=>{
  chapterHold.last=performance.now();
 };
 </script>
+<style id="empty-caption-layout">
+#story-caption[data-empty="true"],#detail[data-empty="true"],#voice-caption[data-empty="true"]{display:none!important}
+#voice-dock.caption-empty{height:auto;min-height:0;padding:9px 16px}
+#voice-dock.caption-empty .voice-dock-actions{margin-top:0}
+body.voice-caption-empty #viewport{bottom:var(--voice-controls-height,62px)}
+@media(max-width:600px){#voice-dock.caption-empty{left:8px;right:8px;padding:8px 10px}#voice-dock.caption-empty #voice-status{font-size:12px}}
+</style>
+<script src="./presentation-layout.js"></script>
 </body></html>

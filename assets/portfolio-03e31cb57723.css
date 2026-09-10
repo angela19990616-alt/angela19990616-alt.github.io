@@ -1,0 +1,408 @@
+/*
+  1. Prevent padding and border from affecting element width. (https://github.com/mozdevs/cssremedy/issues/4)
+  2. Remove default margins and padding
+  3. Reset all borders.
+*/
+
+*,
+::after,
+::before,
+::backdrop,
+::file-selector-button {
+  box-sizing: border-box; /* 1 */
+  margin: 0; /* 2 */
+  padding: 0; /* 2 */
+  border: 0 solid; /* 3 */
+}
+
+/*
+  1. Use a consistent sensible line-height in all browsers.
+  2. Prevent adjustments of font size after orientation changes in iOS.
+  3. Use a more readable tab size.
+  4. Use the user's configured `sans` font-family by default.
+  5. Use the user's configured `sans` font-feature-settings by default.
+  6. Use the user's configured `sans` font-variation-settings by default.
+  7. Disable tap highlights on iOS.
+*/
+
+html,
+:host {
+  line-height: 1.5; /* 1 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+  tab-size: 4; /* 3 */
+  font-family: --theme(
+    --default-font-family,
+    ui-sans-serif,
+    system-ui,
+    sans-serif,
+    'Apple Color Emoji',
+    'Segoe UI Emoji',
+    'Segoe UI Symbol',
+    'Noto Color Emoji'
+  ); /* 4 */
+  font-feature-settings: --theme(--default-font-feature-settings, normal); /* 5 */
+  font-variation-settings: --theme(--default-font-variation-settings, normal); /* 6 */
+  -webkit-tap-highlight-color: transparent; /* 7 */
+}
+
+/*
+  1. Add the correct height in Firefox.
+  2. Correct the inheritance of border color in Firefox. (https://bugzilla.mozilla.org/show_bug.cgi?id=190655)
+  3. Reset the default border style to a 1px solid border.
+*/
+
+hr {
+  height: 0; /* 1 */
+  color: inherit; /* 2 */
+  border-top-width: 1px; /* 3 */
+}
+
+/*
+  Add the correct text decoration in Chrome, Edge, and Safari.
+*/
+
+abbr:where([title]) {
+  -webkit-text-decoration: underline dotted;
+  text-decoration: underline dotted;
+}
+
+/*
+  Remove the default font size and weight for headings.
+*/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+/*
+  Reset links to optimize for opt-in styling instead of opt-out.
+*/
+
+a {
+  color: inherit;
+  -webkit-text-decoration: inherit;
+  text-decoration: inherit;
+}
+
+/*
+  Add the correct font weight in Edge and Safari.
+*/
+
+b,
+strong {
+  font-weight: bolder;
+}
+
+/*
+  1. Use the user's configured `mono` font-family by default.
+  2. Use the user's configured `mono` font-feature-settings by default.
+  3. Use the user's configured `mono` font-variation-settings by default.
+  4. Correct the odd `em` font sizing in all browsers.
+*/
+
+code,
+kbd,
+samp,
+pre {
+  font-family: --theme(
+    --default-mono-font-family,
+    ui-monospace,
+    SFMono-Regular,
+    Menlo,
+    Monaco,
+    Consolas,
+    'Liberation Mono',
+    'Courier New',
+    monospace
+  ); /* 1 */
+  font-feature-settings: --theme(--default-mono-font-feature-settings, normal); /* 2 */
+  font-variation-settings: --theme(--default-mono-font-variation-settings, normal); /* 3 */
+  font-size: 1em; /* 4 */
+}
+
+/*
+  Add the correct font size in all browsers.
+*/
+
+small {
+  font-size: 80%;
+}
+
+/*
+  Prevent `sub` and `sup` elements from affecting the line height in all browsers.
+*/
+
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+/*
+  1. Remove text indentation from table contents in Chrome and Safari. (https://bugs.chromium.org/p/chromium/issues/detail?id=999088, https://bugs.webkit.org/show_bug.cgi?id=201297)
+  2. Correct table border color inheritance in all Chrome and Safari. (https://bugs.chromium.org/p/chromium/issues/detail?id=935729, https://bugs.webkit.org/show_bug.cgi?id=195016)
+  3. Remove gaps between table borders by default.
+*/
+
+table {
+  text-indent: 0; /* 1 */
+  border-color: inherit; /* 2 */
+  border-collapse: collapse; /* 3 */
+}
+
+/*
+  Use the modern Firefox focus style for all focusable elements.
+*/
+
+:-moz-focusring {
+  outline: auto;
+}
+
+/*
+  Add the correct vertical alignment in Chrome and Firefox.
+*/
+
+progress {
+  vertical-align: baseline;
+}
+
+/*
+  Add the correct display in Chrome and Safari.
+*/
+
+summary {
+  display: list-item;
+}
+
+/*
+  Make lists unstyled by default.
+*/
+
+ol,
+ul,
+menu {
+  list-style: none;
+}
+
+/*
+  1. Make replaced elements `display: block` by default. (https://github.com/mozdevs/cssremedy/issues/14)
+  2. Add `vertical-align: middle` to align replaced elements more sensibly by default. (https://github.com/jensimmons/cssremedy/issues/14#issuecomment-634934210)
+      This can trigger a poorly considered lint error in some tools but is included by design.
+*/
+
+img,
+svg,
+video,
+canvas,
+audio,
+iframe,
+embed,
+object {
+  display: block; /* 1 */
+  vertical-align: middle; /* 2 */
+}
+
+/*
+  Constrain images and videos to the parent width and preserve their intrinsic aspect ratio. (https://github.com/mozdevs/cssremedy/issues/14)
+*/
+
+img,
+video {
+  max-width: 100%;
+  height: auto;
+}
+
+/*
+  1. Inherit font styles in all browsers.
+  2. Remove border radius in all browsers.
+  3. Remove background color in all browsers.
+  4. Ensure consistent opacity for disabled states in all browsers.
+*/
+
+button,
+input,
+select,
+optgroup,
+textarea,
+::file-selector-button {
+  font: inherit; /* 1 */
+  font-feature-settings: inherit; /* 1 */
+  font-variation-settings: inherit; /* 1 */
+  letter-spacing: inherit; /* 1 */
+  color: inherit; /* 1 */
+  border-radius: 0; /* 2 */
+  background-color: transparent; /* 3 */
+  opacity: 1; /* 4 */
+}
+
+/*
+  Restore default font weight.
+*/
+
+:where(select:is([multiple], [size])) optgroup {
+  font-weight: bolder;
+}
+
+/*
+  Restore indentation.
+*/
+
+:where(select:is([multiple], [size])) optgroup option {
+  padding-inline-start: 20px;
+}
+
+/*
+  Restore space after button.
+*/
+
+::file-selector-button {
+  margin-inline-end: 4px;
+}
+
+/*
+  Reset the default placeholder opacity in Firefox. (https://github.com/tailwindlabs/tailwindcss/issues/3300)
+*/
+
+::placeholder {
+  opacity: 1;
+}
+
+/*
+  Set the default placeholder color to a semi-transparent version of the current text color in browsers that do not
+  crash when using `color-mix(…)` with `currentcolor`. (https://github.com/tailwindlabs/tailwindcss/issues/17194)
+*/
+
+@supports (not (-webkit-appearance: -apple-pay-button)) /* Not Safari */ or
+  (contain-intrinsic-size: 1px) /* Safari 17+ */ {
+  ::placeholder {
+    color: color-mix(in oklab, currentcolor 50%, transparent);
+  }
+}
+
+/*
+  Prevent resizing textareas horizontally by default.
+*/
+
+textarea {
+  resize: vertical;
+}
+
+/*
+  Remove the inner padding in Chrome and Safari on macOS.
+*/
+
+::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/*
+  1. Ensure date/time inputs have the same height when empty in iOS Safari.
+  2. Ensure text alignment can be changed on date/time inputs in iOS Safari.
+*/
+
+::-webkit-date-and-time-value {
+  min-height: 1lh; /* 1 */
+  text-align: inherit; /* 2 */
+}
+
+/*
+  Prevent height from changing on date/time inputs in macOS Safari when the input is set to `display: block`.
+*/
+
+::-webkit-datetime-edit {
+  display: inline-flex;
+}
+
+/*
+  Remove excess padding from pseudo-elements in date/time inputs to ensure consistent height across browsers.
+*/
+
+::-webkit-datetime-edit-fields-wrapper {
+  padding: 0;
+}
+
+::-webkit-datetime-edit,
+::-webkit-datetime-edit-year-field,
+::-webkit-datetime-edit-month-field,
+::-webkit-datetime-edit-day-field,
+::-webkit-datetime-edit-hour-field,
+::-webkit-datetime-edit-minute-field,
+::-webkit-datetime-edit-second-field,
+::-webkit-datetime-edit-millisecond-field,
+::-webkit-datetime-edit-meridiem-field {
+  padding-block: 0;
+}
+
+/*
+  Center dropdown marker shown on inputs with paired `<datalist>`s in Chrome. (https://github.com/tailwindlabs/tailwindcss/issues/18499)
+*/
+
+::-webkit-calendar-picker-indicator {
+  line-height: 1;
+}
+
+/*
+  Remove the additional `:invalid` styles in Firefox. (https://github.com/mozilla/gecko-dev/blob/2f9eacd9d3d995c937b4251a5557d95d494c9be1/layout/style/res/forms.css#L728-L737)
+*/
+
+:-moz-ui-invalid {
+  box-shadow: none;
+}
+
+/*
+  Correct the inability to style the border radius in iOS Safari.
+*/
+
+button,
+input:where([type='button'], [type='reset'], [type='submit']),
+::file-selector-button {
+  appearance: button;
+}
+
+/*
+  Correct the cursor style of increment and decrement buttons in Safari.
+*/
+
+::-webkit-inner-spin-button,
+::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/*
+  Make elements with the HTML hidden attribute stay hidden by default.
+*/
+
+[hidden]:where(:not([hidden='until-found'])) {
+  display: none !important;
+}
+
+
+
+:root{--font-geist-sans:Inter,-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",Arial,sans-serif;--font-geist-mono:"SFMono-Regular",Consolas,monospace;--ink:#f0f1f5;--muted:#a0a9bb;--line:#ffffff1c;--accent:#ecb385;--blue:#9db4ff;--surface:#0e1321;--page:#080b14}*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:96px;background:var(--page)}body{margin:0;background:var(--page);color:var(--ink);font-family:var(--font-geist-sans);font-size:16px;line-height:1.7}a{color:inherit;text-decoration:none}button{font:inherit;color:inherit;cursor:pointer}button:disabled{opacity:.4;cursor:default}a,button{-webkit-tap-highlight-color:transparent}a:focus-visible,button:focus-visible,canvas:focus-visible{outline:2px solid var(--accent);outline-offset:5px}h1,h2,h3,p{margin:0}small,.eyebrow{font-family:var(--font-geist-mono);font-size:12px;letter-spacing:.13em}em{font-style:normal;font-weight:400;color:var(--blue)}.skip-link{position:fixed;top:8px;left:12px;z-index:20;padding:12px;background:var(--accent);color:var(--page);transform:translateY(-180%)}.skip-link:focus{transform:none}
+.topbar{position:relative;z-index:5;display:flex;align-items:center;justify-content:space-between;min-height:84px;padding:18px max(5vw,24px);border-bottom:1px solid var(--line);gap:24px}.brand{font-size:14px;letter-spacing:.13em;font-weight:700;white-space:nowrap}.brand>i{display:inline-block;height:8px;width:8px;background:var(--accent);border-radius:50%;margin-right:9px}.brand>span{color:var(--accent)}.navcenter,.controls{display:flex;align-items:center;gap:28px}.navcenter{font-size:14px;color:var(--muted)}.navcenter a:hover{color:var(--ink)}.controls{gap:8px}.controls button{background:transparent;border:1px solid var(--line);min-width:42px;min-height:40px;border-radius:4px;padding:5px 11px;font-size:13px}.controls button span{margin-left:7px}.controls .active{color:var(--accent);border-color:var(--accent)}.nav-talk{font-size:14px;margin-right:14px;color:var(--accent)}
+.hero{position:relative;min-height:790px;display:grid;grid-template-columns:1fr 1fr;align-items:center;column-gap:2vw;padding:75px max(5vw,24px) 110px;isolation:isolate}.hero:before{content:"";position:absolute;inset:0;z-index:-1;pointer-events:none;background:radial-gradient(ellipse at 78% 39%,#24385844,transparent 49%)}.eyebrow{color:var(--muted);display:flex;align-items:center;gap:9px}.eyebrow>span{width:19px;height:1px;background:var(--accent)}.hero h1{font-size:clamp(70px,7.4vw,122px);line-height:.96;letter-spacing:-.067em;font-weight:550;margin:30px 0 27px}.hero h1 em{color:#e4e9f4;font-weight:300}.hero h1 em>span{color:var(--accent)}.hero h2{font-size:clamp(24px,2.35vw,38px);line-height:1.45;font-weight:500;letter-spacing:-.025em}.hero-copy>p{max-width:525px;margin-top:22px;font-size:16px;line-height:1.9;color:var(--muted)}.hero-actions{display:flex;align-items:center;flex-wrap:wrap;gap:26px;margin-top:32px}.button-primary{display:inline-flex;align-items:center;justify-content:center;gap:15px;min-height:53px;background:var(--accent);color:#15121c;padding:12px 21px;border:1px solid var(--accent);border-radius:5px;font-size:15px;font-weight:600;transition:background .2s,transform .2s}.button-primary:hover{background:#f9c99f;transform:translateY(-2px)}.button-primary>span:first-child{font-size:24px;line-height:1}.text-link{display:inline-flex;align-items:center;gap:15px;font-size:15px;border-bottom:1px solid #8693b1;padding:6px 0}.text-link:hover{color:var(--accent);border-color:var(--accent)}.hero-foundation{display:flex;flex-wrap:wrap;gap:9px 16px;font-size:13px;color:#8492aa;margin-top:30px}.hero-foundation>span+span{padding-left:16px;border-left:1px solid var(--line)}.hero-bottom{position:absolute;left:max(5vw,24px);right:max(5vw,24px);bottom:25px;display:flex;align-items:center;justify-content:space-between;gap:18px;padding-top:21px;border-top:1px solid var(--line);font:12px var(--font-geist-mono);letter-spacing:.07em;color:#7f8ca3}.hero-bottom>a{font-family:var(--font-geist-sans);font-size:14px;color:var(--muted);letter-spacing:normal}
+.orbit-space{min-width:0;align-self:center;position:relative;padding:0 0 22px}.orbit-heading{display:flex;justify-content:space-between;color:#91a0ba;font:12px var(--font-geist-mono);letter-spacing:.13em;margin:0 12px}.orbit-viewport{height:420px;position:relative;margin:-7px -20px -18px}.orbit-viewport>canvas{display:block;width:100%;height:100%;cursor:grab}.orbit-viewport>canvas:active{cursor:grabbing}.orbit-center-label{position:absolute;top:54%;left:50%;transform:translate(-50%,-50%);font:12px var(--font-geist-mono);letter-spacing:.18em;color:#f5f5ff;text-shadow:0 1px 8px #061126;pointer-events:none;white-space:nowrap}.orbit-fallback{position:absolute;inset:0;display:grid;align-content:center;justify-items:center;pointer-events:none}.orbit-fallback>b{font-size:112px;line-height:1.1;letter-spacing:-.07em;color:var(--blue)}.orbit-fallback>b>span{color:var(--accent)}.orbit-fallback>p{color:var(--muted);font-size:14px}.orbit-fallback+.orbit-center-label{display:none}.orbit-toolbar{display:flex;align-items:center;justify-content:space-between;gap:10px;margin:0 10px 17px;color:#8f9db5;font-size:12px}.orbit-toolbar>div{display:flex;gap:4px}.orbit-toolbar button{font-size:12px;padding:8px;border:1px solid var(--line);background:#ffffff04;border-radius:4px;white-space:nowrap}.orbit-projects{display:grid;grid-template-columns:repeat(3,1fr);gap:7px;padding:0 8px}.orbit-projects button{min-height:42px;font:12px var(--font-geist-mono);letter-spacing:.03em;background:#111827b3;border:1px solid #ffffff12;border-radius:4px;display:flex;align-items:center;justify-content:center;gap:7px}.orbit-projects button[aria-pressed=true]{background:#202c44;border-color:#829cca;color:#fff}.orbit-projects i{width:5px;height:5px;border-radius:50%;flex-shrink:0}.orbit-selected{margin:16px 10px 0;display:flex;justify-content:space-between;font-size:14px;color:var(--ink)}.orbit-selected>span:last-child{font-size:13px;color:var(--muted)}
+.featured-talk{margin:0 max(5vw,24px);border:1px solid #ffffff24;display:grid;grid-template-columns:1fr 1fr;background:var(--surface);border-radius:7px;overflow:hidden}.talk-art{min-height:460px;position:relative;display:block;background:#eee5d5;overflow:hidden}.talk-art>img{height:100%;width:100%;position:absolute;inset:0;object-fit:cover;object-position:center;transition:transform .5s}.talk-art:hover>img{transform:scale(1.025)}.play-badge{position:absolute;bottom:22px;left:24px;background:#0e1424dc;border:1px solid #ffffff88;border-radius:50%;height:58px;width:58px;display:grid;place-items:center;font-size:30px;color:#fff}.talk-copy{padding:45px clamp(25px,4vw,65px);display:flex;flex-direction:column;align-items:flex-start;justify-content:center}.talk-copy>small{color:var(--accent)}.talk-copy h2{font-size:clamp(26px,3vw,45px);line-height:1.4;letter-spacing:-.04em;margin:20px 0}.talk-copy p{color:var(--muted);max-width:440px;font-size:16px;line-height:1.85}.talk-facts{display:flex;flex-wrap:wrap;gap:8px 20px;margin:20px 0;font-size:13px;color:#9aaacc}.talk-facts span+span:before{content:"·";margin-right:16px;color:#566686}.talk-copy .text-link{color:var(--accent);border-color:#edb88a66}
+.about,.console{padding:110px max(5vw,24px)}.about-lead{display:grid;grid-template-columns:.4fr 1.2fr 1fr;gap:4vw;align-items:start}.about small,.console small{color:#8f9bb0}.about-lead h2,.section-head h2{font-size:clamp(32px,3.7vw,57px);line-height:1.35;letter-spacing:-.035em;font-weight:500}.about-lead h2 em{color:#8b9cb7}.about-lead>p{color:var(--muted);font-size:16px;line-height:1.95;padding-top:5px}.foundation{display:grid;grid-template-columns:repeat(3,1fr);gap:30px;margin-top:54px}.foundation article{border-top:1px solid #697d9c5c;padding:25px 0}.foundation h3{font-size:23px;font-weight:500;margin:18px 0 10px}.foundation p{color:var(--muted);font-size:15px;line-height:1.85}.timeline{margin-top:35px;border-top:1px solid var(--line)}.timeline article{display:grid;grid-template-columns:.55fr 1.3fr 1fr;gap:36px;padding:26px 0;border-bottom:1px solid var(--line)}.timeline time{color:var(--accent);font:12px var(--font-geist-mono);padding-top:5px}.timeline h3{font-size:18px;font-weight:500;line-height:1.5;margin-bottom:5px}.timeline b{color:#8998b0;font-size:14px;font-weight:400}.timeline p{color:var(--muted);font-size:15px;line-height:1.8}
+.console{padding-top:80px;background:#0d1220;border-top:1px solid var(--line)}.section-head{display:flex;justify-content:space-between;align-items:end;gap:60px;margin-bottom:40px}.section-head h2{margin-top:19px}.section-head>p{max-width:335px;color:var(--muted);font-size:16px}.systems-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;perspective:1600px}.system{min-height:350px;position:relative;border:1px solid var(--line);background:linear-gradient(140deg,#18223999,#0c111fcc);border-radius:6px;padding:28px;display:flex;align-items:flex-start;flex-direction:column;transition:transform .25s,border-color .25s}.system:hover{transform:translateY(-4px) rotateX(1deg);border-color:#8b9cbd77}.system-link{position:absolute;inset:0;z-index:2;border-radius:inherit}.system-top{width:100%;display:flex;justify-content:space-between;gap:15px}.system-top small{font-size:12px;color:#8598b7;letter-spacing:.03em}.system-top>span{color:var(--accent)}.system-code{display:block;color:var(--accent);font:12px var(--font-geist-mono);letter-spacing:.09em;margin:38px 0 10px}.system h3{font-size:28px;line-height:1.4;letter-spacing:-.03em;font-weight:500;margin-bottom:15px}.system>p{color:var(--muted);font-size:16px;line-height:1.8;max-width:610px}.proof{font-size:12px;color:#a1b3d1;margin-top:16px}.system footer{display:flex;gap:15px;flex-wrap:wrap;margin-top:auto;padding-top:26px;font:12px var(--font-geist-mono);color:#7689a6}.hero-system{grid-column:1/-1;min-height:320px;background:radial-gradient(ellipse at 100% 0,#384d7244,transparent 65%),linear-gradient(130deg,#192438,#0e1524)}.hero-system h3{font-size:36px}.hero-system .system-code{margin-top:34px}
+.contact{background:#dce3f0;color:#111e35;padding:80px max(5vw,24px) 25px}.contact>small{color:#53627a}.contact h2{margin:26px 0 30px;font-size:clamp(45px,6.2vw,86px);line-height:1.2;letter-spacing:-.05em;font-weight:500}.contact h2 em{color:#637494}.mail{font-size:16px;display:inline-block;border-bottom:1px solid #111e35;padding-bottom:7px}.contact-row{margin-top:70px;border-top:1px solid #111e352c;padding-top:21px;display:flex;justify-content:space-between;flex-wrap:wrap;gap:14px;font-size:12px;color:#4e5e78}
+@media(min-width:1550px){.hero{min-height:900px}.orbit-viewport{height:510px}.hero-copy>p{max-width:590px}.hero h1{font-size:134px}}
+@media(max-width:1050px){.topbar{gap:14px}.navcenter{gap:18px}.controls button span{display:none}.hero{padding-top:55px;column-gap:0;min-height:750px}.hero h1{font-size:84px}.hero h2{font-size:27px}.orbit-viewport{height:360px;margin-left:-30px;margin-right:-25px}.orbit-toolbar{flex-direction:column;align-items:flex-start}.about-lead{grid-template-columns:1fr 1fr;gap:26px}.about-lead>small{grid-column:1/-1}.talk-copy{padding:30px}.talk-art{min-height:425px}.timeline article{grid-template-columns:110px 1fr 1fr;gap:24px}}
+@media(max-width:760px){html{scroll-padding-top:24px}.topbar{min-height:74px;padding:16px 20px}.brand{font-size:12px;letter-spacing:.08em}.brand>i{margin-right:5px;width:6px;height:6px}.navcenter{display:none}.nav-talk{margin-right:2px;font-size:13px}.controls{gap:5px}.controls button{min-width:35px;min-height:38px;padding:5px 8px}.hero{display:flex;flex-direction:column;align-items:stretch;padding:48px 24px 80px;min-height:unset}.hero h1{font-size:clamp(78px,20vw,114px);margin:27px 0 24px}.hero h2{font-size:28px}.hero-copy>p{max-width:570px;font-size:16px;margin-top:19px}.eyebrow{font-size:12px;letter-spacing:.05em}.hero-actions{gap:23px;margin-top:26px}.button-primary{font-size:14px;padding:12px 16px}.hero-foundation{font-size:12px;gap:7px 10px}.hero-foundation>span+span{padding-left:10px}.orbit-space{margin:55px 0 25px;align-self:stretch}.orbit-viewport{height:345px;margin:-12px -24px -20px}.orbit-toolbar{flex-direction:row;align-items:center;flex-wrap:wrap;font-size:12px}.orbit-projects{padding:0;gap:6px}.orbit-heading{margin:0}.orbit-selected{margin-left:0;margin-right:0}.hero-bottom{left:24px;right:24px;bottom:23px;justify-content:space-between}.hero-bottom>span:last-child{display:none}.hero-bottom>span:first-child{font-size:10px;letter-spacing:.03em}.hero-bottom>a{font-size:12px}.featured-talk{margin:0 20px;grid-template-columns:1fr}.talk-art{min-height:unset;aspect-ratio:16/10}.talk-copy{padding:29px 25px 34px}.talk-copy h2{font-size:34px;line-height:1.35}.talk-copy p{max-width:none}.talk-facts{font-size:12px;gap:10px}.talk-facts span+span:before{margin-right:10px}.about,.console{padding:70px 24px}.about-lead{grid-template-columns:1fr;gap:21px}.about-lead h2{font-size:35px}.about-lead p{padding:0}.foundation{grid-template-columns:1fr;gap:0;margin-top:35px}.foundation article{padding:23px 0}.foundation h3{margin:10px 0}.timeline{margin-top:18px}.timeline article{grid-template-columns:1fr;gap:10px;padding:25px 0}.timeline time{font-size:12px}.timeline p{font-size:15px}.section-head{display:block;margin-bottom:28px}.section-head h2{font-size:37px}.section-head>p{margin-top:20px;max-width:none}.systems-grid{grid-template-columns:1fr}.hero-system{grid-column:auto}.system{padding:24px;min-height:350px}.system h3,.hero-system h3{font-size:28px}.contact{padding:63px 24px 25px}.contact h2{font-size:54px}.contact-row{margin-top:48px;justify-content:flex-start;gap:16px 25px}.contact-row>span:first-child,.contact-row>span:last-child{flex-basis:100%}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{animation:none!important;transition:none!important}.system:hover,.button-primary:hover,.talk-art:hover>img{transform:none}}
