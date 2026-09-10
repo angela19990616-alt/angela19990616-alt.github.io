@@ -1,0 +1,4168 @@
+{
+  "schema_version": 1,
+  "title": "企业 Agent 分享 · 灵犀逐句录音清单",
+  "source": "用户最新定稿，按当前 HTML 的 splitSpeech 原样切句",
+  "audio_status": "220段文件已检查可解析、时长非零；未逐句人工试听",
+  "playback": {
+    "default_mode": "continuous",
+    "manual_controls": [
+      "previous_sentence",
+      "next_sentence"
+    ],
+    "interrupt_current_on_seek": true,
+    "restore_nearest_visual_cue_on_seek": true,
+    "stop_cover_music_before_narration": true,
+    "close_demo_after_each_page": true
+  },
+  "sentences": [
+    {
+      "order": 1,
+      "id": "cover-s01",
+      "block_id": "cover",
+      "page": "封面",
+      "trigger": "旁白开始",
+      "sentence_in_block": 1,
+      "text": "大家好，我是今天临时被安排上岗的 AI 搭档。",
+      "sha256": "652c621b1688331d7bfbbe96f87c48da1f2c892e610c771369327202a47a4acd",
+      "output_file": "audio/cover-s01.mp3",
+      "cue_before": null,
+      "visual_state": null,
+      "duration_ms": 4415,
+      "status": "recorded"
+    },
+    {
+      "order": 2,
+      "id": "cover-s02",
+      "block_id": "cover",
+      "page": "封面",
+      "trigger": "旁白开始",
+      "sentence_in_block": 2,
+      "text": "Angela 负责真实经历、想法和最后拍板，我负责把这些事情串起来。",
+      "sha256": "c2c5d2e15dbede9d1c2a2b10da59cdbf51b955dd53209d6a0b0a939e295b841a",
+      "output_file": "audio/cover-s02.mp3",
+      "cue_before": null,
+      "visual_state": null,
+      "duration_ms": 5277,
+      "status": "recorded"
+    },
+    {
+      "order": 3,
+      "id": "cover-s03",
+      "block_id": "cover",
+      "page": "封面",
+      "trigger": "旁白开始",
+      "sentence_in_block": 3,
+      "text": "今天这场分享的名字叫：我以为开发完了，结果项目才刚刚开始。",
+      "sha256": "d406562244f2f7f0f63e6fcfe3a1c8a3e5fb48a089be478e03f453106e6a00d9",
+      "output_file": "audio/cover-s03.mp3",
+      "cue_before": null,
+      "visual_state": null,
+      "duration_ms": 5251,
+      "status": "recorded"
+    },
+    {
+      "order": 4,
+      "id": "cover-s04",
+      "block_id": "cover",
+      "page": "封面",
+      "trigger": "旁白开始",
+      "sentence_in_block": 4,
+      "text": "听上去像一部创业短剧。",
+      "sha256": "c0326a44580267132e131a63ccfe7eff3b38fba98c0c386ff870fece000fa664",
+      "output_file": "audio/cover-s04.mp3",
+      "cue_before": null,
+      "visual_state": null,
+      "duration_ms": 2220,
+      "status": "recorded"
+    },
+    {
+      "order": 5,
+      "id": "cover-s05",
+      "block_id": "cover",
+      "page": "封面",
+      "trigger": "旁白开始",
+      "sentence_in_block": 5,
+      "text": "很遗憾，里面的反转，大部分都有生活原型。",
+      "sha256": "96e3c0f49c1e043a1b2324e3a8c3c3816c415094de0026ba6fe3127c4e4a580f",
+      "output_file": "audio/cover-s05.mp3",
+      "cue_before": null,
+      "visual_state": null,
+      "duration_ms": 3605,
+      "status": "recorded"
+    },
+    {
+      "order": 6,
+      "id": "p01-00-s01",
+      "block_id": "p01-00",
+      "page": 1,
+      "trigger": "页面出现",
+      "sentence_in_block": 1,
+      "text": "她研究 AI 的第一动力，并没有那么宏大。",
+      "sha256": "7379d00dc72f0cd2f3c2233275047f62b02cdc587eafed198f2f6ac9d5c8d83e",
+      "output_file": "audio/p01-00-s01.mp3",
+      "cue_before": null,
+      "visual_state": null,
+      "duration_ms": 3474,
+      "status": "recorded"
+    },
+    {
+      "order": 7,
+      "id": "p01-00-s02",
+      "block_id": "p01-00",
+      "page": 1,
+      "trigger": "页面出现",
+      "sentence_in_block": 2,
+      "text": "就是因为菜，美其名曰想少做一点重复劳动。",
+      "sha256": "d26c2fba3b045db5e998c51f9b6f8f60666a6e2dd612001d1caf9a7b3b8bc9d6",
+      "output_file": "audio/p01-00-s02.mp3",
+      "cue_before": null,
+      "visual_state": null,
+      "duration_ms": 4075,
+      "status": "recorded"
+    },
+    {
+      "order": 8,
+      "id": "p01-00-s03",
+      "block_id": "p01-00",
+      "page": 1,
+      "trigger": "页面出现",
+      "sentence_in_block": 3,
+      "text": "结果没想到，为了偷懒，学会了更多东西，接了更多任务，最后还开了公司。",
+      "sha256": "ef5700405411089648ecf7f9b1c979475b328f7cfd3fcb1ab6303a960c3c211e",
+      "output_file": "audio/p01-00-s03.mp3",
+      "cue_before": null,
+      "visual_state": null,
+      "duration_ms": 6348,
+      "status": "recorded"
+    },
+    {
+      "order": 9,
+      "id": "p02-00-s01",
+      "block_id": "p02-00",
+      "page": 2,
+      "trigger": "开场",
+      "sentence_in_block": 1,
+      "text": "先从三年前说起。",
+      "sha256": "d75b4f013e83d51e2362fa032da2d5761fce7753b04c599e7a6fc7dac18eed0e",
+      "output_file": "audio/p02-00-s01.mp3",
+      "cue_before": null,
+      "visual_state": null,
+      "duration_ms": 1907,
+      "status": "recorded"
+    },
+    {
+      "order": 10,
+      "id": "p02-00-s02",
+      "block_id": "p02-00",
+      "page": 2,
+      "trigger": "开场",
+      "sentence_in_block": 2,
+      "text": "那时她在公司实习。",
+      "sha256": "ac649f68040467ca07dfb72d76dd3734e5c27c16618147baa18013296825465a",
+      "output_file": "audio/p02-00-s02.mp3",
+      "cue_before": null,
+      "visual_state": null,
+      "duration_ms": 1620,
+      "status": "recorded"
+    },
+    {
+      "order": 11,
+      "id": "p02-00-s03",
+      "block_id": "p02-00",
+      "page": 2,
+      "trigger": "开场",
+      "sentence_in_block": 3,
+      "text": "代码不懂，业务也没弄明白，但任务已经来了。",
+      "sha256": "f989c45ae48273fc22910077c1587b40fe52b75e6af232744462401dcbdaa8ce",
+      "output_file": "audio/p02-00-s03.mp3",
+      "cue_before": null,
+      "visual_state": null,
+      "duration_ms": 3788,
+      "status": "recorded"
+    },
+    {
+      "order": 12,
+      "id": "p02-00-s04",
+      "block_id": "p02-00",
+      "page": 2,
+      "trigger": "开场",
+      "sentence_in_block": 4,
+      "text": "领导要求她写报告，写代码。",
+      "sha256": "4138a17ab22620a870e3f9f7a3ac64bdf25d215dfe7e6eda6d35b5816970d390",
+      "output_file": "audio/p02-00-s04.mp3",
+      "cue_before": null,
+      "visual_state": null,
+      "duration_ms": 2508,
+      "status": "recorded"
+    },
+    {
+      "order": 13,
+      "id": "p02-00-s05",
+      "block_id": "p02-00",
+      "page": 2,
+      "trigger": "开场",
+      "sentence_in_block": 5,
+      "text": "但是她对这两件事可以说是一窍不通。",
+      "sha256": "8eae66bfa855d7180691f5279d3134cb897241b094fb18f61a64633e93b92bc9",
+      "output_file": "audio/p02-00-s05.mp3",
+      "cue_before": null,
+      "visual_state": null,
+      "duration_ms": 3344,
+      "status": "recorded"
+    },
+    {
+      "order": 14,
+      "id": "p02-00-s06",
+      "block_id": "p02-00",
+      "page": 2,
+      "trigger": "开场",
+      "sentence_in_block": 6,
+      "text": "她不得不每天挨着领导骂，还得厚着脸皮去问公司的外包程序员小哥。",
+      "sha256": "b9c37b3eebbce29e4d2d47c8cedc7a94e557721949a929abfcd76f10e79edc67",
+      "output_file": "audio/p02-00-s06.mp3",
+      "cue_before": null,
+      "visual_state": null,
+      "duration_ms": 5930,
+      "status": "recorded"
+    },
+    {
+      "order": 15,
+      "id": "p02-00-s07",
+      "block_id": "p02-00",
+      "page": 2,
+      "trigger": "开场",
+      "sentence_in_block": 7,
+      "text": "这是她每天的日常。",
+      "sha256": "e3b195e33c687712af9d3f082aac2c082c506dc675ae47a06bb6b96623a148bc",
+      "output_file": "audio/p02-00-s07.mp3",
+      "cue_before": null,
+      "visual_state": null,
+      "duration_ms": 1698,
+      "status": "recorded"
+    },
+    {
+      "order": 16,
+      "id": "p02-01-s01",
+      "block_id": "p02-01",
+      "page": 2,
+      "trigger": "codeOld · 第 1 步",
+      "sentence_in_block": 1,
+      "text": "东拼西凑的查资料、问人，终于写了一个磕磕绊绊的版本。",
+      "sha256": "92a7629ca3f10c9952fa1a6847e7c7397241c94708db8313f2b2f5accc94ed20",
+      "output_file": "audio/p02-01-s01.mp3",
+      "cue_before": {
+        "kind": "code",
+        "key": "codeOld",
+        "step": 0
+      },
+      "visual_state": {
+        "kind": "code",
+        "key": "codeOld",
+        "step": 0
+      },
+      "duration_ms": 4911,
+      "status": "recorded"
+    },
+    {
+      "order": 17,
+      "id": "p02-02-s01",
+      "block_id": "p02-02",
+      "page": 2,
+      "trigger": "codeOld · 第 2 步",
+      "sentence_in_block": 1,
+      "text": "刚写完跑测试，程序就罢工了。",
+      "sha256": "329dcde290df7a772018105e1ff1a7ed49ad4f2ed0622a606c32fd9ac0e1769a",
+      "output_file": "audio/p02-02-s01.mp3",
+      "cue_before": {
+        "kind": "code",
+        "key": "codeOld",
+        "step": 1
+      },
+      "visual_state": {
+        "kind": "code",
+        "key": "codeOld",
+        "step": 1
+      },
+      "duration_ms": 2456,
+      "status": "recorded"
+    },
+    {
+      "order": 18,
+      "id": "p02-02-s02",
+      "block_id": "p02-02",
+      "page": 2,
+      "trigger": "codeOld · 第 2 步",
+      "sentence_in_block": 2,
+      "text": "原因是一个冒号没有按时到岗。",
+      "sha256": "588e496d51b8a31e5e920fa84584fef05a7797864caa7d538e1ec8bc80f75e6e",
+      "output_file": "audio/p02-02-s02.mp3",
+      "cue_before": null,
+      "visual_state": {
+        "kind": "code",
+        "key": "codeOld",
+        "step": 1
+      },
+      "duration_ms": 2769,
+      "status": "recorded"
+    },
+    {
+      "order": 19,
+      "id": "p02-03-s01",
+      "block_id": "p02-03",
+      "page": 2,
+      "trigger": "codeOld · 第 3 步",
+      "sentence_in_block": 1,
+      "text": "补上冒号，又送一个新报错。",
+      "sha256": "fdf5b8f6f00a0655a7f26f2323d291b6173a5841c30ec2c606853ba4d4137ba0",
+      "output_file": "audio/p02-03-s01.mp3",
+      "cue_before": {
+        "kind": "code",
+        "key": "codeOld",
+        "step": 2
+      },
+      "visual_state": {
+        "kind": "code",
+        "key": "codeOld",
+        "step": 2
+      },
+      "duration_ms": 2403,
+      "status": "recorded"
+    },
+    {
+      "order": 20,
+      "id": "p02-04-s01",
+      "block_id": "p02-04",
+      "page": 2,
+      "trigger": "codeOld · 第 4 步",
+      "sentence_in_block": 1,
+      "text": "改了一下午，代码没多几行，和程序员小哥的聊天记录倒是长了不少。",
+      "sha256": "413c529457e1aad1f12bf03f168e4adf9d477070b1d081218fbfd22a65d11179",
+      "output_file": "audio/p02-04-s01.mp3",
+      "cue_before": {
+        "kind": "code",
+        "key": "codeOld",
+        "step": 3
+      },
+      "visual_state": {
+        "kind": "code",
+        "key": "codeOld",
+        "step": 3
+      },
+      "duration_ms": 5747,
+      "status": "recorded"
+    },
+    {
+      "order": 21,
+      "id": "p02-05-s01",
+      "block_id": "p02-05",
+      "page": 2,
+      "trigger": "codeOld · 第 5 步",
+      "sentence_in_block": 1,
+      "text": "最后，她决定明天直接问程序员小哥。",
+      "sha256": "22e1fe67593648fb5d5dc5d87b68baaad9db44873f1ce4f889efa005d5ecc8d3",
+      "output_file": "audio/p02-05-s01.mp3",
+      "cue_before": {
+        "kind": "code",
+        "key": "codeOld",
+        "step": 4
+      },
+      "visual_state": {
+        "kind": "code",
+        "key": "codeOld",
+        "step": 4
+      },
+      "duration_ms": 3344,
+      "status": "recorded"
+    },
+    {
+      "order": 22,
+      "id": "p02-05-s02",
+      "block_id": "p02-05",
+      "page": 2,
+      "trigger": "codeOld · 第 5 步",
+      "sentence_in_block": 2,
+      "text": "程序没有跑起来，她已经想跑了。",
+      "sha256": "d6b50fbf355c447a157ca7bbafdd1835d6c8fd0a4df7249ed402873e6d550e53",
+      "output_file": "audio/p02-05-s02.mp3",
+      "cue_before": null,
+      "visual_state": {
+        "kind": "code",
+        "key": "codeOld",
+        "step": 4
+      },
+      "duration_ms": 2821,
+      "status": "recorded"
+    },
+    {
+      "order": 23,
+      "id": "p02-06-s01",
+      "block_id": "p02-06",
+      "page": 2,
+      "trigger": "codeAI · 第 1 步",
+      "sentence_in_block": 1,
+      "text": "这时，神奇的事情发生了，ChatGPT 横空出世。",
+      "sha256": "d8274390fb2dc5eda6427855846a1742bc80a72595dbf8c91fa7d970803ff8c4",
+      "output_file": "audio/p02-06-s01.mp3",
+      "cue_before": {
+        "kind": "code",
+        "key": "codeAI",
+        "step": 0
+      },
+      "visual_state": {
+        "kind": "code",
+        "key": "codeAI",
+        "step": 0
+      },
+      "duration_ms": 4258,
+      "status": "recorded"
+    },
+    {
+      "order": 24,
+      "id": "p02-06-s02",
+      "block_id": "p02-06",
+      "page": 2,
+      "trigger": "codeAI · 第 1 步",
+      "sentence_in_block": 2,
+      "text": "作为一个与时俱进的留子，她第一时间试起了 AI 协作。",
+      "sha256": "51dc0ebfaa9c7cebccbc0a4b8af6c00de008dae2d5c2561193e5fb6c658bb15f",
+      "output_file": "audio/p02-06-s02.mp3",
+      "cue_before": null,
+      "visual_state": {
+        "kind": "code",
+        "key": "codeAI",
+        "step": 0
+      },
+      "duration_ms": 5016,
+      "status": "recorded"
+    },
+    {
+      "order": 25,
+      "id": "p02-06-s03",
+      "block_id": "p02-06",
+      "page": 2,
+      "trigger": "codeAI · 第 1 步",
+      "sentence_in_block": 3,
+      "text": "只要会说话，就能写代码。",
+      "sha256": "644efdb0975d1ef8b9586c3614432f88f03cc1647bb6029ad740e2a1670b6c83",
+      "output_file": "audio/p02-06-s03.mp3",
+      "cue_before": null,
+      "visual_state": {
+        "kind": "code",
+        "key": "codeAI",
+        "step": 0
+      },
+      "duration_ms": 2273,
+      "status": "recorded"
+    },
+    {
+      "order": 26,
+      "id": "p02-06-s04",
+      "block_id": "p02-06",
+      "page": 2,
+      "trigger": "codeAI · 第 1 步",
+      "sentence_in_block": 4,
+      "text": "她成为了最早的一批聊天工程师。",
+      "sha256": "dabd550fcf8676a6060fac5ec1b077d5e5c05745c5bdda011f62c374ce451dd5",
+      "output_file": "audio/p02-06-s04.mp3",
+      "cue_before": null,
+      "visual_state": {
+        "kind": "code",
+        "key": "codeAI",
+        "step": 0
+      },
+      "duration_ms": 2952,
+      "status": "recorded"
+    },
+    {
+      "order": 27,
+      "id": "p02-07-s01",
+      "block_id": "p02-07",
+      "page": 2,
+      "trigger": "codeAI · 第 2 步",
+      "sentence_in_block": 1,
+      "text": "AI 在写代码，她在喝茶。",
+      "sha256": "35f3b74e47d89a94e8fe8ca66bcf0591cb56b87c58be3b620f80448d62aeafee",
+      "output_file": "audio/p02-07-s01.mp3",
+      "cue_before": {
+        "kind": "code",
+        "key": "codeAI",
+        "step": 1
+      },
+      "visual_state": {
+        "kind": "code",
+        "key": "codeAI",
+        "step": 1
+      },
+      "duration_ms": 2273,
+      "status": "recorded"
+    },
+    {
+      "order": 28,
+      "id": "p02-07-s02",
+      "block_id": "p02-07",
+      "page": 2,
+      "trigger": "codeAI · 第 2 步",
+      "sentence_in_block": 2,
+      "text": "画面看起来很像老板。",
+      "sha256": "1e07d4797ebd24577c2aa6aec5db6152d08c0eedd3ace7228dd7e5242ffdb11e",
+      "output_file": "audio/p02-07-s02.mp3",
+      "cue_before": null,
+      "visual_state": {
+        "kind": "code",
+        "key": "codeAI",
+        "step": 1
+      },
+      "duration_ms": 1985,
+      "status": "recorded"
+    },
+    {
+      "order": 29,
+      "id": "p02-08-s01",
+      "block_id": "p02-08",
+      "page": 2,
+      "trigger": "codeAI · 第 3 步",
+      "sentence_in_block": 1,
+      "text": "运行又报错了。",
+      "sha256": "e076b51434f3b347b2c1919b539b06f8a3b255938135648bb5a4fe4c252c09d8",
+      "output_file": "audio/p02-08-s01.mp3",
+      "cue_before": {
+        "kind": "code",
+        "key": "codeAI",
+        "step": 2
+      },
+      "visual_state": {
+        "kind": "code",
+        "key": "codeAI",
+        "step": 2
+      },
+      "duration_ms": 1620,
+      "status": "recorded"
+    },
+    {
+      "order": 30,
+      "id": "p02-08-s02",
+      "block_id": "p02-08",
+      "page": 2,
+      "trigger": "codeAI · 第 3 步",
+      "sentence_in_block": 2,
+      "text": "这次不用一个人对着屏幕沉默，把现场发回去，让 AI 接着修。",
+      "sha256": "219cba81bfc29bb9519e6e5d004bbc2f94916a7ba8be3f53884017f563dbd539",
+      "output_file": "audio/p02-08-s02.mp3",
+      "cue_before": null,
+      "visual_state": {
+        "kind": "code",
+        "key": "codeAI",
+        "step": 2
+      },
+      "duration_ms": 4963,
+      "status": "recorded"
+    },
+    {
+      "order": 31,
+      "id": "p02-09-s01",
+      "block_id": "p02-09",
+      "page": 2,
+      "trigger": "codeAI · 第 4 步",
+      "sentence_in_block": 1,
+      "text": "终于完成了一版。",
+      "sha256": "b8366da115a1e5ecd71dd2f1b32e507e38c8fdc6b52e786ed707abc6b7eaed89",
+      "output_file": "audio/p02-09-s01.mp3",
+      "cue_before": {
+        "kind": "code",
+        "key": "codeAI",
+        "step": 3
+      },
+      "visual_state": {
+        "kind": "code",
+        "key": "codeAI",
+        "step": 3
+      },
+      "duration_ms": 1515,
+      "status": "recorded"
+    },
+    {
+      "order": 32,
+      "id": "p02-09-s02",
+      "block_id": "p02-09",
+      "page": 2,
+      "trigger": "codeAI · 第 4 步",
+      "sentence_in_block": 2,
+      "text": "别急着庆祝，还要检查结果是不是符合需求。",
+      "sha256": "33f52ada8fa028f1dbb6f985a3d6dcc0564096a48e25f534034b09491d703fac",
+      "output_file": "audio/p02-09-s02.mp3",
+      "cue_before": null,
+      "visual_state": {
+        "kind": "code",
+        "key": "codeAI",
+        "step": 3
+      },
+      "duration_ms": 3997,
+      "status": "recorded"
+    },
+    {
+      "order": 33,
+      "id": "p02-10-s01",
+      "block_id": "p02-10",
+      "page": 2,
+      "trigger": "codeAI · 第 5 步",
+      "sentence_in_block": 1,
+      "text": "结果确认了，这一轮才算完成。",
+      "sha256": "b2f3c0de14f9388956cdda9fa969439ef3f21009178ab2df88fb0a15abbc80ba",
+      "output_file": "audio/p02-10-s01.mp3",
+      "cue_before": {
+        "kind": "code",
+        "key": "codeAI",
+        "step": 4
+      },
+      "visual_state": {
+        "kind": "code",
+        "key": "codeAI",
+        "step": 4
+      },
+      "duration_ms": 2534,
+      "status": "recorded"
+    },
+    {
+      "order": 34,
+      "id": "p02-11-s01",
+      "block_id": "p02-11",
+      "page": 2,
+      "trigger": "收起后的衔接",
+      "sentence_in_block": 1,
+      "text": "以前，卡住了只能等程序员小哥有空；后来，她能先和 AI 试出一个结果，再带着具体问题请教。",
+      "sha256": "ff5308ce0bce05c434da308577ff6932e470f43f794b922da0029ba7800b4852",
+      "output_file": "audio/p02-11-s01.mp3",
+      "cue_before": {
+        "kind": "close"
+      },
+      "visual_state": {
+        "kind": "close"
+      },
+      "duration_ms": 7784,
+      "status": "recorded"
+    },
+    {
+      "order": 35,
+      "id": "p02-11-s02",
+      "block_id": "p02-11",
+      "page": 2,
+      "trigger": "收起后的衔接",
+      "sentence_in_block": 2,
+      "text": "代码还是要学，但终于不用每个冒号都求人了。",
+      "sha256": "3c32dd5c11c6419b0aaf82cd572e179ef0c86273ff86e890edd2dbe10d2fea0a",
+      "output_file": "audio/p02-11-s02.mp3",
+      "cue_before": null,
+      "visual_state": {
+        "kind": "close"
+      },
+      "duration_ms": 4258,
+      "status": "recorded"
+    },
+    {
+      "order": 36,
+      "id": "p03-00-s01",
+      "block_id": "p03-00",
+      "page": 3,
+      "trigger": "开场",
+      "sentence_in_block": 1,
+      "text": "接下来，AI 出报告的能力让她大为震撼。",
+      "sha256": "85f32156044ecbaabcd95ba3d8e80b4f0480107919a31998cfa2349b9a8b7033",
+      "output_file": "audio/p03-00-s01.mp3",
+      "cue_before": null,
+      "visual_state": null,
+      "duration_ms": 3788,
+      "status": "recorded"
+    },
+    {
+      "order": 37,
+      "id": "p03-00-s02",
+      "block_id": "p03-00",
+      "page": 3,
+      "trigger": "开场",
+      "sentence_in_block": 2,
+      "text": "这份报告原先预计要写一个月。",
+      "sha256": "268bdcd0ebfd6b815a20024d7ca5f73760f32f4d4cd3e88de595c79252f342fb",
+      "output_file": "audio/p03-00-s02.mp3",
+      "cue_before": null,
+      "visual_state": null,
+      "duration_ms": 2534,
+      "status": "recorded"
+    },
+    {
+      "order": 38,
+      "id": "p03-00-s03",
+      "block_id": "p03-00",
+      "page": 3,
+      "trigger": "开场",
+      "sentence_in_block": 3,
+      "text": "但是自从与 AI 协同工作后，整个工作流程都变了。",
+      "sha256": "4185e4cf3707fa52c3e51eb9ecbb8be80e0514e658862b304c8c8920c5bca6ea",
+      "output_file": "audio/p03-00-s03.mp3",
+      "cue_before": null,
+      "visual_state": null,
+      "duration_ms": 4127,
+      "status": "recorded"
+    },
+    {
+      "order": 39,
+      "id": "p03-01-s01",
+      "block_id": "p03-01",
+      "page": 3,
+      "trigger": "reportOld · 第 1 步",
+      "sentence_in_block": 1,
+      "text": "任务落到桌上。",
+      "sha256": "47372e0e19cc2f54a56ccb99580cd72b6532ba7ccb08577b34811244f8d9d2ff",
+      "output_file": "audio/p03-01-s01.mp3",
+      "cue_before": {
+        "kind": "flow",
+        "key": "reportOld",
+        "step": 0
+      },
+      "visual_state": {
+        "kind": "flow",
+        "key": "reportOld",
+        "step": 0
+      },
+      "duration_ms": 1384,
+      "status": "recorded"
+    },
+    {
+      "order": 40,
+      "id": "p03-01-s02",
+      "block_id": "p03-01",
+      "page": 3,
+      "trigger": "reportOld · 第 1 步",
+      "sentence_in_block": 2,
+      "text": "先理解要写什么，找模板、列资料清单。",
+      "sha256": "d459c28f5f5f754378900babdf9836eef40e598d42a10c32a72cb180ae99125e",
+      "output_file": "audio/p03-01-s02.mp3",
+      "cue_before": null,
+      "visual_state": {
+        "kind": "flow",
+        "key": "reportOld",
+        "step": 0
+      },
+      "duration_ms": 3422,
+      "status": "recorded"
+    },
+    {
+      "order": 41,
+      "id": "p03-02-s01",
+      "block_id": "p03-02",
+      "page": 3,
+      "trigger": "reportOld · 第 2 步",
+      "sentence_in_block": 1,
+      "text": "资料还在路上。",
+      "sha256": "ca590264e51e9e805dfe1c3f1e7eb74c3cd0944a34fc19e5e9504e63c60084cb",
+      "output_file": "audio/p03-02-s01.mp3",
+      "cue_before": {
+        "kind": "flow",
+        "key": "reportOld",
+        "step": 1
+      },
+      "visual_state": {
+        "kind": "flow",
+        "key": "reportOld",
+        "step": 1
+      },
+      "duration_ms": 1384,
+      "status": "recorded"
+    },
+    {
+      "order": 42,
+      "id": "p03-02-s02",
+      "block_id": "p03-02",
+      "page": 3,
+      "trigger": "reportOld · 第 2 步",
+      "sentence_in_block": 2,
+      "text": "检索、收集、核对口径，搭起报告结构。",
+      "sha256": "04b04fb7b14daffe83877c01addf01b7a4f3f1ea958cb2f5925d711cc1ee80b9",
+      "output_file": "audio/p03-02-s02.mp3",
+      "cue_before": null,
+      "visual_state": {
+        "kind": "flow",
+        "key": "reportOld",
+        "step": 1
+      },
+      "duration_ms": 3474,
+      "status": "recorded"
+    },
+    {
+      "order": 43,
+      "id": "p03-03-s01",
+      "block_id": "p03-03",
+      "page": 3,
+      "trigger": "reportOld · 第 3 步",
+      "sentence_in_block": 1,
+      "text": "开始逐段写。",
+      "sha256": "5974266194b70d65659ef6f6ec88903579baa0ea5b955e3d5b79ad79bb0a71df",
+      "output_file": "audio/p03-03-s01.mp3",
+      "cue_before": {
+        "kind": "flow",
+        "key": "reportOld",
+        "step": 2
+      },
+      "visual_state": {
+        "kind": "flow",
+        "key": "reportOld",
+        "step": 2
+      },
+      "duration_ms": 1437,
+      "status": "recorded"
+    },
+    {
+      "order": 44,
+      "id": "p03-03-s02",
+      "block_id": "p03-03",
+      "page": 3,
+      "trigger": "reportOld · 第 3 步",
+      "sentence_in_block": 2,
+      "text": "整理材料、补论证，写完一段再改一段。",
+      "sha256": "9c13ed5467bb6d0bb7f8b5a043f357af36e7f436e8652294e47cf768921d714a",
+      "output_file": "audio/p03-03-s02.mp3",
+      "cue_before": null,
+      "visual_state": {
+        "kind": "flow",
+        "key": "reportOld",
+        "step": 2
+      },
+      "duration_ms": 3187,
+      "status": "recorded"
+    },
+    {
+      "order": 45,
+      "id": "p03-04-s01",
+      "block_id": "p03-04",
+      "page": 3,
+      "trigger": "reportOld · 第 4 步",
+      "sentence_in_block": 1,
+      "text": "版本越来越多。",
+      "sha256": "f6b4c174cb09a8c71aae5df3f6f346d10ad38634f9c634c960ddac117f7caaa3",
+      "output_file": "audio/p03-04-s01.mp3",
+      "cue_before": {
+        "kind": "flow",
+        "key": "reportOld",
+        "step": 3
+      },
+      "visual_state": {
+        "kind": "flow",
+        "key": "reportOld",
+        "step": 3
+      },
+      "duration_ms": 1280,
+      "status": "recorded"
+    },
+    {
+      "order": 46,
+      "id": "p03-05-s01",
+      "block_id": "p03-05",
+      "page": 3,
+      "trigger": "reportOld · 第 5 步",
+      "sentence_in_block": 1,
+      "text": "终于有了一版。",
+      "sha256": "46248226ffe9d9df06716a7b0c1c2b2ce60da490b8e9b68d0d209edc975f6506",
+      "output_file": "audio/p03-05-s01.mp3",
+      "cue_before": {
+        "kind": "flow",
+        "key": "reportOld",
+        "step": 4
+      },
+      "visual_state": {
+        "kind": "flow",
+        "key": "reportOld",
+        "step": 4
+      },
+      "duration_ms": 1384,
+      "status": "recorded"
+    },
+    {
+      "order": 47,
+      "id": "p03-05-s02",
+      "block_id": "p03-05",
+      "page": 3,
+      "trigger": "reportOld · 第 5 步",
+      "sentence_in_block": 2,
+      "text": "这项任务原先可能要写一个月。",
+      "sha256": "3a6fcbfe895f849c79e80021c87907c5e38f81199fad5cdd77cd0a1c7c7b46ca",
+      "output_file": "audio/p03-05-s02.mp3",
+      "cue_before": null,
+      "visual_state": {
+        "kind": "flow",
+        "key": "reportOld",
+        "step": 4
+      },
+      "duration_ms": 2743,
+      "status": "recorded"
+    },
+    {
+      "order": 48,
+      "id": "p03-06-s01",
+      "block_id": "p03-06",
+      "page": 3,
+      "trigger": "reportAI · 第 1 步",
+      "sentence_in_block": 1,
+      "text": "而 AI 这边，先把任务说清楚。",
+      "sha256": "d82b0868788d85e38ad45af702c5f738f5f66274f6cb564b98b3853ed3142042",
+      "output_file": "audio/p03-06-s01.mp3",
+      "cue_before": {
+        "kind": "flow",
+        "key": "reportAI",
+        "step": 0
+      },
+      "visual_state": {
+        "kind": "flow",
+        "key": "reportAI",
+        "step": 0
+      },
+      "duration_ms": 2743,
+      "status": "recorded"
+    },
+    {
+      "order": 49,
+      "id": "p03-07-s01",
+      "block_id": "p03-07",
+      "page": 3,
+      "trigger": "reportAI · 第 2 步",
+      "sentence_in_block": 1,
+      "text": "把目标、资料、受众和格式要求交给 AI。",
+      "sha256": "55ea3183ee8ec2cfab0b6e983b537e8eded09c867299540fdbf09821018c1a1a",
+      "output_file": "audio/p03-07-s01.mp3",
+      "cue_before": {
+        "kind": "flow",
+        "key": "reportAI",
+        "step": 1
+      },
+      "visual_state": {
+        "kind": "flow",
+        "key": "reportAI",
+        "step": 1
+      },
+      "duration_ms": 3788,
+      "status": "recorded"
+    },
+    {
+      "order": 50,
+      "id": "p03-07-s02",
+      "block_id": "p03-07",
+      "page": 3,
+      "trigger": "reportAI · 第 2 步",
+      "sentence_in_block": 2,
+      "text": "AI 先整理提纲，她检查方向是否正确。",
+      "sha256": "5caedfceab365f5710f0250491ecaf7db688df431a9f8d4574f6b78c40e3a9e0",
+      "output_file": "audio/p03-07-s02.mp3",
+      "cue_before": null,
+      "visual_state": {
+        "kind": "flow",
+        "key": "reportAI",
+        "step": 1
+      },
+      "duration_ms": 3344,
+      "status": "recorded"
+    },
+    {
+      "order": 51,
+      "id": "p03-08-s01",
+      "block_id": "p03-08",
+      "page": 3,
+      "trigger": "reportAI · 第 3 步",
+      "sentence_in_block": 1,
+      "text": "段落开始出现。",
+      "sha256": "4930dbf8e09b6df163371a6fe2a03061c1f9278e4f1975cbbc46763e68b9866a",
+      "output_file": "audio/p03-08-s01.mp3",
+      "cue_before": {
+        "kind": "flow",
+        "key": "reportAI",
+        "step": 2
+      },
+      "visual_state": {
+        "kind": "flow",
+        "key": "reportAI",
+        "step": 2
+      },
+      "duration_ms": 1437,
+      "status": "recorded"
+    },
+    {
+      "order": 52,
+      "id": "p03-08-s02",
+      "block_id": "p03-08",
+      "page": 3,
+      "trigger": "reportAI · 第 3 步",
+      "sentence_in_block": 2,
+      "text": "基于已有材料生成内容，缺失信息先标出来。",
+      "sha256": "31c273014a1bb61db519d34f3b3d1eb05ec8736491eba0c3d7ec99838374d106",
+      "output_file": "audio/p03-08-s02.mp3",
+      "cue_before": null,
+      "visual_state": {
+        "kind": "flow",
+        "key": "reportAI",
+        "step": 2
+      },
+      "duration_ms": 3944,
+      "status": "recorded"
+    },
+    {
+      "order": 53,
+      "id": "p03-09-s01",
+      "block_id": "p03-09",
+      "page": 3,
+      "trigger": "reportAI · 第 4 步",
+      "sentence_in_block": 1,
+      "text": "第一版到手。",
+      "sha256": "7d28aec305e3f4db6f331f09c9d684160ea1e8334187ccc971642b0f9bdd0844",
+      "output_file": "audio/p03-09-s01.mp3",
+      "cue_before": {
+        "kind": "flow",
+        "key": "reportAI",
+        "step": 3
+      },
+      "visual_state": {
+        "kind": "flow",
+        "key": "reportAI",
+        "step": 3
+      },
+      "duration_ms": 1384,
+      "status": "recorded"
+    },
+    {
+      "order": 54,
+      "id": "p03-09-s02",
+      "block_id": "p03-09",
+      "page": 3,
+      "trigger": "reportAI · 第 4 步",
+      "sentence_in_block": 2,
+      "text": "原先可能要写一个月的任务，五分钟有了初稿。",
+      "sha256": "86513ec796ed5f72ec1c7dc7e9df7fec19a05447932ed4175619a4f9bc532d7f",
+      "output_file": "audio/p03-09-s02.mp3",
+      "cue_before": null,
+      "visual_state": {
+        "kind": "flow",
+        "key": "reportAI",
+        "step": 3
+      },
+      "duration_ms": 3788,
+      "status": "recorded"
+    },
+    {
+      "order": 55,
+      "id": "p03-10-s01",
+      "block_id": "p03-10",
+      "page": 3,
+      "trigger": "收起后的衔接",
+      "sentence_in_block": 1,
+      "text": "这次真正改变她的，是能很快拿着一个版本讨论方向。",
+      "sha256": "c2d327b30148b79f2cd7842f920f4c7b4d3079d73a64dd7b567f119eedf1f7d1",
+      "output_file": "audio/p03-10-s01.mp3",
+      "cue_before": {
+        "kind": "close"
+      },
+      "visual_state": {
+        "kind": "close"
+      },
+      "duration_ms": 4545,
+      "status": "recorded"
+    },
+    {
+      "order": 56,
+      "id": "p03-10-s02",
+      "block_id": "p03-10",
+      "page": 3,
+      "trigger": "收起后的衔接",
+      "sentence_in_block": 2,
+      "text": "后来同事也来问她怎么做，一个还在学习的实习生，开始给别人介绍 AI。",
+      "sha256": "16dd1cd7737f0006ed76ef50314e53c46da774fe11f93dc5fe9724e7b2b6a6eb",
+      "output_file": "audio/p03-10-s02.mp3",
+      "cue_before": null,
+      "visual_state": {
+        "kind": "close"
+      },
+      "duration_ms": 5747,
+      "status": "recorded"
+    },
+    {
+      "order": 57,
+      "id": "p04-00-s01",
+      "block_id": "p04-00",
+      "page": 4,
+      "trigger": "页面出现",
+      "sentence_in_block": 1,
+      "text": "后来在澳洲读书和生活期间，她接手了一家便利店。",
+      "sha256": "bf4a22b5b29100fae8f6f20818dc0c2c1117e2c2ed6427a15eea5a57a177cbd8",
+      "output_file": "audio/p04-00-s01.mp3",
+      "cue_before": null,
+      "visual_state": null,
+      "duration_ms": 4206,
+      "status": "recorded"
+    },
+    {
+      "order": 58,
+      "id": "p04-00-s02",
+      "block_id": "p04-00",
+      "page": 4,
+      "trigger": "页面出现",
+      "sentence_in_block": 2,
+      "text": "起初，她觉得做生意挺新鲜。",
+      "sha256": "8f19b79f02523f5fc633e595d0fa518ebb0bef2b1dc9f3b9deffacfcad89e24d",
+      "output_file": "audio/p04-00-s02.mp3",
+      "cue_before": null,
+      "visual_state": null,
+      "duration_ms": 2351,
+      "status": "recorded"
+    },
+    {
+      "order": 59,
+      "id": "p04-00-s03",
+      "block_id": "p04-00",
+      "page": 4,
+      "trigger": "页面出现",
+      "sentence_in_block": 3,
+      "text": "进货、摆货、收钱，终于不是替别人上班了。",
+      "sha256": "d3a04a4d9b36bb499548c941a9d66c9fd0f54f5b62439a2440d1b3f49989cd6e",
+      "output_file": "audio/p04-00-s03.mp3",
+      "cue_before": null,
+      "visual_state": null,
+      "duration_ms": 4075,
+      "status": "recorded"
+    },
+    {
+      "order": 60,
+      "id": "p04-00-s04",
+      "block_id": "p04-00",
+      "page": 4,
+      "trigger": "页面出现",
+      "sentence_in_block": 4,
+      "text": "然后她发现，自己当老板以后，早上也要有人开门，晚上也要有人管事，周末也不能靠假装没看见就跳过去。",
+      "sha256": "c1574ee4fd0486620b40585d9a3bafb3478312c9b1fa2ae76cbfe7343d56a14c",
+      "output_file": "audio/p04-00-s04.mp3",
+      "cue_before": null,
+      "visual_state": null,
+      "duration_ms": 8594,
+      "status": "recorded"
+    },
+    {
+      "order": 61,
+      "id": "p04-00-s05",
+      "block_id": "p04-00",
+      "page": 4,
+      "trigger": "页面出现",
+      "sentence_in_block": 5,
+      "text": "原来上班还有下班时间，自己开店以后，店不会因为老板困了就自动休眠。",
+      "sha256": "f1e6a06ec429911347bf229833404e13364b07b83e1143580c52b4f9cdc66883",
+      "output_file": "audio/p04-00-s05.mp3",
+      "cue_before": null,
+      "visual_state": null,
+      "duration_ms": 5982,
+      "status": "recorded"
+    },
+    {
+      "order": 62,
+      "id": "p04-00-s06",
+      "block_id": "p04-00",
+      "page": 4,
+      "trigger": "页面出现",
+      "sentence_in_block": 6,
+      "text": "原来的 996，直接变成了 007。",
+      "sha256": "cb3693250324f13a7e36bb56110850dfaff75a6b71efa7a81a20407c4c1c2847",
+      "output_file": "audio/p04-00-s06.mp3",
+      "cue_before": null,
+      "visual_state": null,
+      "duration_ms": 3579,
+      "status": "recorded"
+    },
+    {
+      "order": 63,
+      "id": "p04-00-s07",
+      "block_id": "p04-00",
+      "page": 4,
+      "trigger": "页面出现",
+      "sentence_in_block": 7,
+      "text": "每天重复发生的问题，哪些最烦、哪些最费时间、出了事情谁处理，她能直接感受到。",
+      "sha256": "ce07d023936f28f34dc8383f02ca1be2afeeb98df6715d098be2c130fe1747ca",
+      "output_file": "audio/p04-00-s07.mp3",
+      "cue_before": null,
+      "visual_state": null,
+      "duration_ms": 6687,
+      "status": "recorded"
+    },
+    {
+      "order": 64,
+      "id": "p04-00-s08",
+      "block_id": "p04-00",
+      "page": 4,
+      "trigger": "页面出现",
+      "sentence_in_block": 8,
+      "text": "关于无人化和远程管理的探索，就是从这些很具体的抱怨开始的。",
+      "sha256": "df9b7e76346828c9098c137802c1e7b2fe9164d4b2348ddd81be515dd8557d8d",
+      "output_file": "audio/p04-00-s08.mp3",
+      "cue_before": null,
+      "visual_state": null,
+      "duration_ms": 5433,
+      "status": "recorded"
+    },
+    {
+      "order": 65,
+      "id": "p05-00-s01",
+      "block_id": "p05-00",
+      "page": 5,
+      "trigger": "开场",
+      "sentence_in_block": 1,
+      "text": "在便利店里闲着无聊的时候，她每天和 AI 吐槽：怎么又要进货，又要收钱，又要补货？",
+      "sha256": "abccfdf1961ce62ce268578b56273145f7f9c3b4fbd0ac0fe67c93c8358a6331",
+      "output_file": "audio/p05-00-s01.mp3",
+      "cue_before": null,
+      "visual_state": null,
+      "duration_ms": 7001,
+      "status": "recorded"
+    },
+    {
+      "order": 66,
+      "id": "p05-00-s02",
+      "block_id": "p05-00",
+      "page": 5,
+      "trigger": "开场",
+      "sentence_in_block": 2,
+      "text": "聊着聊着，一个想法冒出来了：能不能把店改成自助购物、远程管理，让自己不用一直守在柜台前？",
+      "sha256": "5fdec7bc047674385f11b48024555f8d93a3f97a36bd4efc35d6209c5a7093ac",
+      "output_file": "audio/p05-00-s02.mp3",
+      "cue_before": null,
+      "visual_state": null,
+      "duration_ms": 7602,
+      "status": "recorded"
+    },
+    {
+      "order": 67,
+      "id": "p05-00-s03",
+      "block_id": "p05-00",
+      "page": 5,
+      "trigger": "开场",
+      "sentence_in_block": 3,
+      "text": "她本来是找 AI 聊天解闷，结果聊出了一份新的施工任务。",
+      "sha256": "d154ad2d4bc2228f9cffc68108667db532f24f1fc9447f02a5de37a551d51152",
+      "output_file": "audio/p05-00-s03.mp3",
+      "cue_before": null,
+      "visual_state": null,
+      "duration_ms": 4624,
+      "status": "recorded"
+    },
+    {
+      "order": 68,
+      "id": "p05-00-s04",
+      "block_id": "p05-00",
+      "page": 5,
+      "trigger": "开场",
+      "sentence_in_block": 4,
+      "text": "带着这个想法，让我们先看看这家店里，具体有什么。",
+      "sha256": "5b9792a7b92bc6371548aeb7394ec2fc088c4d04bcbd9e34d993fcd8c7d28cbc",
+      "output_file": "audio/p05-00-s04.mp3",
+      "cue_before": null,
+      "visual_state": null,
+      "duration_ms": 4180,
+      "status": "recorded"
+    },
+    {
+      "order": 69,
+      "id": "p05-01-s01",
+      "block_id": "p05-01",
+      "page": 5,
+      "trigger": "store · 第 1 步",
+      "sentence_in_block": 1,
+      "text": "传统便利店每天围着一条链转：联系供应商进货，收货上架，顾客扫码结账，盘点库存，再补货。",
+      "sha256": "65fa891f66075c037a4b33017ece85b5bb4a705963bda6ebe73ac1bbe10418f8",
+      "output_file": "audio/p05-01-s01.mp3",
+      "cue_before": {
+        "kind": "flow",
+        "key": "store",
+        "step": 0
+      },
+      "visual_state": {
+        "kind": "flow",
+        "key": "store",
+        "step": 0
+      },
+      "duration_ms": 7784,
+      "status": "recorded"
+    },
+    {
+      "order": 70,
+      "id": "p05-01-s02",
+      "block_id": "p05-01",
+      "page": 5,
+      "trigger": "store · 第 1 步",
+      "sentence_in_block": 2,
+      "text": "她从淘宝采购智慧设备，通过海运运到澳洲，尝试把门禁、监控、收银和后台接在一起。",
+      "sha256": "857fd35fa836d4aa565e99e6a64a9461daaa27cda0ea3ecac526b4c3db07e309",
+      "output_file": "audio/p05-01-s02.mp3",
+      "cue_before": null,
+      "visual_state": {
+        "kind": "flow",
+        "key": "store",
+        "step": 0
+      },
+      "duration_ms": 7001,
+      "status": "recorded"
+    },
+    {
+      "order": 71,
+      "id": "p05-01-s03",
+      "block_id": "p05-01",
+      "page": 5,
+      "trigger": "store · 第 1 步",
+      "sentence_in_block": 3,
+      "text": "现成设备负责各自的功能，系统负责传递状态。",
+      "sha256": "cce57a9ca86815982889d5ee10625528e8a937f12cdd963b4acd4dae49f2e8ff",
+      "output_file": "audio/p05-01-s03.mp3",
+      "cue_before": null,
+      "visual_state": {
+        "kind": "flow",
+        "key": "store",
+        "step": 0
+      },
+      "duration_ms": 3944,
+      "status": "recorded"
+    },
+    {
+      "order": 72,
+      "id": "p05-01-s04",
+      "block_id": "p05-01",
+      "page": 5,
+      "trigger": "store · 第 1 步",
+      "sentence_in_block": 4,
+      "text": "顾客能自助的部分自助，远程能处理的部分远程，真正搬货上架和现场异常，仍然需要有人接手。",
+      "sha256": "1f94fd4a4a3b5a27a3b0d75258c25c9966480f70ae6d70276a9424081235a941",
+      "output_file": "audio/p05-01-s04.mp3",
+      "cue_before": null,
+      "visual_state": {
+        "kind": "flow",
+        "key": "store",
+        "step": 0
+      },
+      "duration_ms": 8385,
+      "status": "recorded"
+    },
+    {
+      "order": 73,
+      "id": "p06-00-s01",
+      "block_id": "p06-00",
+      "page": 6,
+      "trigger": "开场",
+      "sentence_in_block": 1,
+      "text": "店里的这些设备，各管一件事。",
+      "sha256": "090d9c70331192601fd4868257ed1ad9c389e44924fca418cc4226f2c9d89c1c",
+      "output_file": "audio/p06-00-s01.mp3",
+      "cue_before": null,
+      "visual_state": null,
+      "duration_ms": 2821,
+      "status": "recorded"
+    },
+    {
+      "order": 74,
+      "id": "p06-01-s01",
+      "block_id": "p06-01",
+      "page": 6,
+      "trigger": "access · 第 1 步",
+      "sentence_in_block": 1,
+      "text": "门禁负责进入与授权。",
+      "sha256": "7fd67c8f1c5075c8e2392b47562db87d493953368666dc385498d7b720c49cae",
+      "output_file": "audio/p06-01-s01.mp3",
+      "cue_before": {
+        "kind": "flow",
+        "key": "access",
+        "step": 0
+      },
+      "visual_state": {
+        "kind": "flow",
+        "key": "access",
+        "step": 0
+      },
+      "duration_ms": 1985,
+      "status": "recorded"
+    },
+    {
+      "order": 75,
+      "id": "p06-02-s01",
+      "block_id": "p06-02",
+      "page": 6,
+      "trigger": "camera · 第 1 步",
+      "sentence_in_block": 1,
+      "text": "监控提供远程画面。",
+      "sha256": "ea7fbf14904f2afe7acbfc6d24df9e62e0576bbafe4b7ed45185ff3e6c640396",
+      "output_file": "audio/p06-02-s01.mp3",
+      "cue_before": {
+        "kind": "flow",
+        "key": "camera",
+        "step": 0
+      },
+      "visual_state": {
+        "kind": "flow",
+        "key": "camera",
+        "step": 0
+      },
+      "duration_ms": 1985,
+      "status": "recorded"
+    },
+    {
+      "order": 76,
+      "id": "p06-03-s01",
+      "block_id": "p06-03",
+      "page": 6,
+      "trigger": "checkout · 第 1 步",
+      "sentence_in_block": 1,
+      "text": "收银留下交易记录。",
+      "sha256": "dc019df2d18bac5a790b8ab9743c9ac630f29895eef6b8dbd7709c3b4d958df0",
+      "output_file": "audio/p06-03-s01.mp3",
+      "cue_before": {
+        "kind": "flow",
+        "key": "checkout",
+        "step": 0
+      },
+      "visual_state": {
+        "kind": "flow",
+        "key": "checkout",
+        "step": 0
+      },
+      "duration_ms": 1567,
+      "status": "recorded"
+    },
+    {
+      "order": 77,
+      "id": "p06-04-s01",
+      "block_id": "p06-04",
+      "page": 6,
+      "trigger": "inventory · 第 1 步",
+      "sentence_in_block": 1,
+      "text": "库存跟着交易更新。",
+      "sha256": "0f2d71aa7cb6c2f3768fa1f633d4490f23a641e3125c15570c46db4f4c17838f",
+      "output_file": "audio/p06-04-s01.mp3",
+      "cue_before": {
+        "kind": "flow",
+        "key": "inventory",
+        "step": 0
+      },
+      "visual_state": {
+        "kind": "flow",
+        "key": "inventory",
+        "step": 0
+      },
+      "duration_ms": 1907,
+      "status": "recorded"
+    },
+    {
+      "order": 78,
+      "id": "p06-05-s01",
+      "block_id": "p06-05",
+      "page": 6,
+      "trigger": "storeops · 第 1 步",
+      "sentence_in_block": 1,
+      "text": "后台系统要把这些状态接起来：把交易、库存、采购和现场补货接成一条链，还需要设计好责任权限和异常处理。",
+      "sha256": "20c7bdf6832539f2577ea0712997693aa663778724cecd8d4d2826bd00dca63d",
+      "output_file": "audio/p06-05-s01.mp3",
+      "cue_before": {
+        "kind": "flow",
+        "key": "storeops",
+        "step": 0
+      },
+      "visual_state": {
+        "kind": "flow",
+        "key": "storeops",
+        "step": 0
+      },
+      "duration_ms": 8856,
+      "status": "recorded"
+    },
+    {
+      "order": 79,
+      "id": "p06-06-s01",
+      "block_id": "p06-06",
+      "page": 6,
+      "trigger": "收起衔接 · 第 1 步",
+      "sentence_in_block": 1,
+      "text": "数字人大屏里负责接待客户的灵犀倒是经历了另一种进化，让我们打开看看。",
+      "sha256": "c095468a254747db7c15ef41b5d0fa5fd2dfc8733400cc3665b5ed02c05ff6d4",
+      "output_file": "audio/p06-06-s01.mp3",
+      "cue_before": {
+        "kind": "close",
+        "key": "",
+        "step": 0
+      },
+      "visual_state": {
+        "kind": "close",
+        "key": "",
+        "step": 0
+      },
+      "duration_ms": 7053,
+      "status": "recorded"
+    },
+    {
+      "order": 80,
+      "id": "p06-07-s01",
+      "block_id": "p06-07",
+      "page": 6,
+      "trigger": "digital · 第 1 步",
+      "sentence_in_block": 1,
+      "text": "最早是非常简陋抽象的 2D 小人。",
+      "sha256": "ac9e78d88e27b7e3673d1de3fbb3c3944b03931355911680f1167cc70b2b0d77",
+      "output_file": "audio/p06-07-s01.mp3",
+      "cue_before": {
+        "kind": "flow",
+        "key": "digital",
+        "step": 0
+      },
+      "visual_state": {
+        "kind": "flow",
+        "key": "digital",
+        "step": 0
+      },
+      "duration_ms": 3161,
+      "status": "recorded"
+    },
+    {
+      "order": 81,
+      "id": "p06-07-s02",
+      "block_id": "p06-07",
+      "page": 6,
+      "trigger": "digital · 第 1 步",
+      "sentence_in_block": 2,
+      "text": "你先别管像不像人，屏幕里终于有人了。",
+      "sha256": "809de2d95b6a5f920bdc383f34966e2caab9fd52330d9411ecbd9a5682bca871",
+      "output_file": "audio/p06-07-s02.mp3",
+      "cue_before": null,
+      "visual_state": {
+        "kind": "flow",
+        "key": "digital",
+        "step": 0
+      },
+      "duration_ms": 3709,
+      "status": "recorded"
+    },
+    {
+      "order": 82,
+      "id": "p06-08-s01",
+      "block_id": "p06-08",
+      "page": 6,
+      "trigger": "digital · 第 2 步",
+      "sentence_in_block": 1,
+      "text": "Angela 说，功能可以慢慢长，脸先长好。",
+      "sha256": "b3396ffeb090ee06c0f845646b4e570bb3ed785aaf7026a3eb50008955f925d4",
+      "output_file": "audio/p06-08-s01.mp3",
+      "cue_before": {
+        "kind": "flow",
+        "key": "digital",
+        "step": 1
+      },
+      "visual_state": {
+        "kind": "flow",
+        "key": "digital",
+        "step": 1
+      },
+      "duration_ms": 3187,
+      "status": "recorded"
+    },
+    {
+      "order": 83,
+      "id": "p06-08-s02",
+      "block_id": "p06-08",
+      "page": 6,
+      "trigger": "digital · 第 2 步",
+      "sentence_in_block": 2,
+      "text": "于是帅哥到岗了。",
+      "sha256": "5a5d1ad7905d6c9e2a57838ff7668946be4328962c1952c9e48d3e279d208490",
+      "output_file": "audio/p06-08-s02.mp3",
+      "cue_before": null,
+      "visual_state": {
+        "kind": "flow",
+        "key": "digital",
+        "step": 1
+      },
+      "duration_ms": 1515,
+      "status": "recorded"
+    },
+    {
+      "order": 84,
+      "id": "p06-09-s01",
+      "block_id": "p06-09",
+      "page": 6,
+      "trigger": "digital · 第 3 步",
+      "sentence_in_block": 1,
+      "text": "刚进三维，比例有点放飞。",
+      "sha256": "3fa152fbb8a4bd4407f302ca496b9f5733e17fe1ba733c8772b79468506a2c8d",
+      "output_file": "audio/p06-09-s01.mp3",
+      "cue_before": {
+        "kind": "flow",
+        "key": "digital",
+        "step": 2
+      },
+      "visual_state": {
+        "kind": "flow",
+        "key": "digital",
+        "step": 2
+      },
+      "duration_ms": 2456,
+      "status": "recorded"
+    },
+    {
+      "order": 85,
+      "id": "p06-09-s02",
+      "block_id": "p06-09",
+      "page": 6,
+      "trigger": "digital · 第 3 步",
+      "sentence_in_block": 2,
+      "text": "骨架也得重新磨合。",
+      "sha256": "b27a4c88d857ccb9629e627d26c4e8b8d7220991580980e484c05fbbc7010f7b",
+      "output_file": "audio/p06-09-s02.mp3",
+      "cue_before": null,
+      "visual_state": {
+        "kind": "flow",
+        "key": "digital",
+        "step": 2
+      },
+      "duration_ms": 1802,
+      "status": "recorded"
+    },
+    {
+      "order": 86,
+      "id": "p06-10-s01",
+      "block_id": "p06-10",
+      "page": 6,
+      "trigger": "digital · 第 4 步",
+      "sentence_in_block": 1,
+      "text": "后来，脸和动作逐渐顺了，也开始尝试讲课板和虚拟房间控灯。",
+      "sha256": "40a5a9f178842d0963189d153f626f6ec8aeca1fde6a1b1fd0d12f4960281cd9",
+      "output_file": "audio/p06-10-s01.mp3",
+      "cue_before": {
+        "kind": "flow",
+        "key": "digital",
+        "step": 3
+      },
+      "visual_state": {
+        "kind": "flow",
+        "key": "digital",
+        "step": 3
+      },
+      "duration_ms": 5329,
+      "status": "recorded"
+    },
+    {
+      "order": 87,
+      "id": "p06-10-s02",
+      "block_id": "p06-10",
+      "page": 6,
+      "trigger": "digital · 第 4 步",
+      "sentence_in_block": 2,
+      "text": "总算从改颜值，走向了干活。",
+      "sha256": "c7a304471315c4389851135633f69855d7cb52748c1b3a6f59b48d6c0d401120",
+      "output_file": "audio/p06-10-s02.mp3",
+      "cue_before": null,
+      "visual_state": {
+        "kind": "flow",
+        "key": "digital",
+        "step": 3
+      },
+      "duration_ms": 2821,
+      "status": "recorded"
+    },
+    {
+      "order": 88,
+      "id": "p06-11-s01",
+      "block_id": "p06-11",
+      "page": 6,
+      "trigger": "digital · 第 5 步",
+      "sentence_in_block": 1,
+      "text": "最后是本地办公室样例。",
+      "sha256": "10cf8417855e5e99510c445d7e5fecffd616e575ad25215a7f2359f06539455c",
+      "output_file": "audio/p06-11-s01.mp3",
+      "cue_before": {
+        "kind": "flow",
+        "key": "digital",
+        "step": 4
+      },
+      "visual_state": {
+        "kind": "flow",
+        "key": "digital",
+        "step": 4
+      },
+      "duration_ms": 2116,
+      "status": "recorded"
+    },
+    {
+      "order": 89,
+      "id": "p06-11-s02",
+      "block_id": "p06-11",
+      "page": 6,
+      "trigger": "digital · 第 5 步",
+      "sentence_in_block": 2,
+      "text": "真人联网协作，是下一步。",
+      "sha256": "1ca2b4cd6a8642fe3989ed8daa93aeb94ec987ffbee5e9cb81e24cee2c7afade",
+      "output_file": "audio/p06-11-s02.mp3",
+      "cue_before": null,
+      "visual_state": {
+        "kind": "flow",
+        "key": "digital",
+        "step": 4
+      },
+      "duration_ms": 2273,
+      "status": "recorded"
+    },
+    {
+      "order": 90,
+      "id": "p06-12-s01",
+      "block_id": "p06-12",
+      "page": 6,
+      "trigger": "收起后的衔接",
+      "sentence_in_block": 1,
+      "text": "从角色好看，到角色能和环境互动，是不同阶段的工作。",
+      "sha256": "4465aa1ef3dcea7c11ed2887f2f0b3bd769fa74eb54219ed3fefdc9c806d3776",
+      "output_file": "audio/p06-12-s01.mp3",
+      "cue_before": {
+        "kind": "close"
+      },
+      "visual_state": {
+        "kind": "close"
+      },
+      "duration_ms": 4780,
+      "status": "recorded"
+    },
+    {
+      "order": 91,
+      "id": "p06-12-s02",
+      "block_id": "p06-12",
+      "page": 6,
+      "trigger": "收起后的衔接",
+      "sentence_in_block": 2,
+      "text": "这里还保留着不少原型和试验，有感兴趣的，演讲结束后可以展开讨论。",
+      "sha256": "7f0646cf1f4e90b0f2672df3306e62f251d5174e3abc2925d22cf95a9b1ed9bb",
+      "output_file": "audio/p06-12-s02.mp3",
+      "cue_before": null,
+      "visual_state": {
+        "kind": "close"
+      },
+      "duration_ms": 5799,
+      "status": "recorded"
+    },
+    {
+      "order": 92,
+      "id": "p07-00-s01",
+      "block_id": "p07-00",
+      "page": 7,
+      "trigger": "开场",
+      "sentence_in_block": 1,
+      "text": "接下来回到经营。",
+      "sha256": "399c59bd797673eabfd0221e5454a323d7c63505494fff3129cf9adfb0fa5789",
+      "output_file": "audio/p07-00-s01.mp3",
+      "cue_before": null,
+      "visual_state": null,
+      "duration_ms": 1567,
+      "status": "recorded"
+    },
+    {
+      "order": 93,
+      "id": "p07-00-s02",
+      "block_id": "p07-00",
+      "page": 7,
+      "trigger": "开场",
+      "sentence_in_block": 2,
+      "text": "便利店有一道现实题：设备坏了，谁去处理？",
+      "sha256": "490d4910744ba7dc712d3276dee866dcd72c2554be0e3cea0201d0019b6a604a",
+      "output_file": "audio/p07-00-s02.mp3",
+      "cue_before": null,
+      "visual_state": null,
+      "duration_ms": 5016,
+      "status": "recorded"
+    },
+    {
+      "order": 94,
+      "id": "p07-01-s01",
+      "block_id": "p07-01",
+      "page": 7,
+      "trigger": "storeFault · 第 1 步",
+      "sentence_in_block": 1,
+      "text": "设备坏了先分级：能远程处理就远程处理，不能处理就找现场负责人，联系不上还要有后备方案。",
+      "sha256": "5c1f816e162b0545c6e9e50c9c40c297df6f01cbb0a0c25a23292d8da824f734",
+      "output_file": "audio/p07-01-s01.mp3",
+      "cue_before": {
+        "kind": "flow",
+        "key": "storeFault",
+        "step": 0
+      },
+      "visual_state": {
+        "kind": "flow",
+        "key": "storeFault",
+        "step": 0
+      },
+      "duration_ms": 8620,
+      "status": "recorded"
+    },
+    {
+      "order": 95,
+      "id": "p07-01-s02",
+      "block_id": "p07-01",
+      "page": 7,
+      "trigger": "storeFault · 第 1 步",
+      "sentence_in_block": 2,
+      "text": "在这家便利店，作决定、拿收益和承担经营风险的，主要都是她自己。",
+      "sha256": "e29a529a04d187996247225f14804a73adfac4abf15f68d47df70c8226a56569",
+      "output_file": "audio/p07-01-s02.mp3",
+      "cue_before": null,
+      "visual_state": {
+        "kind": "flow",
+        "key": "storeFault",
+        "step": 0
+      },
+      "duration_ms": 5851,
+      "status": "recorded"
+    },
+    {
+      "order": 96,
+      "id": "p07-01-s03",
+      "block_id": "p07-01",
+      "page": 7,
+      "trigger": "storeFault · 第 1 步",
+      "sentence_in_block": 3,
+      "text": "进入更大的组织，这几种角色往往分散在不同的人身上。",
+      "sha256": "49f91b0cdee94d6e03a4958a8e7d5270e583891375db902e665fba8039f0263d",
+      "output_file": "audio/p07-01-s03.mp3",
+      "cue_before": null,
+      "visual_state": {
+        "kind": "flow",
+        "key": "storeFault",
+        "step": 0
+      },
+      "duration_ms": 4859,
+      "status": "recorded"
+    },
+    {
+      "order": 97,
+      "id": "p07-01-s04",
+      "block_id": "p07-01",
+      "page": 7,
+      "trigger": "storeFault · 第 1 步",
+      "sentence_in_block": 4,
+      "text": "做企业 Agent 时，她逐渐发现了一些以前没有考虑过的现实问题。",
+      "sha256": "44b6d256dd4a33f3861e0193425b594b2c69a76ea6a7b9e65295142f881394ed",
+      "output_file": "audio/p07-01-s04.mp3",
+      "cue_before": null,
+      "visual_state": {
+        "kind": "flow",
+        "key": "storeFault",
+        "step": 0
+      },
+      "duration_ms": 5251,
+      "status": "recorded"
+    },
+    {
+      "order": 98,
+      "id": "p08-00-s01",
+      "block_id": "p08-00",
+      "page": 8,
+      "trigger": "开场",
+      "sentence_in_block": 1,
+      "text": "三个月前，不懂业务、连企业办公软件都不太熟悉的她回国，走进了一家咨询公司。",
+      "sha256": "2f3d7f1d8ced8ecbd03adc33442b8d60b2427ceefb679de3bb7843b5952982a9",
+      "output_file": "audio/p08-00-s01.mp3",
+      "cue_before": null,
+      "visual_state": null,
+      "duration_ms": 6713,
+      "status": "recorded"
+    },
+    {
+      "order": 99,
+      "id": "p08-01-s01",
+      "block_id": "p08-01",
+      "page": 8,
+      "trigger": "consulting · 第 1 步",
+      "sentence_in_block": 1,
+      "text": "这类咨询业务的流程从接触客户、了解立项意向开始，经过投标、签约、调研、报告修改等过程，直到验收与回款。",
+      "sha256": "af9ea3717097ae00a2ce73534c9e178e63ffa2e50bf6494d1bf12364a83cb349",
+      "output_file": "audio/p08-01-s01.mp3",
+      "cue_before": {
+        "kind": "flow",
+        "key": "consulting",
+        "step": 0
+      },
+      "visual_state": {
+        "kind": "flow",
+        "key": "consulting",
+        "step": 0
+      },
+      "duration_ms": 9639,
+      "status": "recorded"
+    },
+    {
+      "order": 100,
+      "id": "p08-02-s01",
+      "block_id": "p08-02",
+      "page": 8,
+      "trigger": "收起后的衔接",
+      "sentence_in_block": 1,
+      "text": "经过简单的业务了解，她拿着 AI，雄心壮志地想干出一番事业，觉得咨询这类知识密集的行业一定是最容易被 AI 颠覆的。",
+      "sha256": "f291a64bd702e65dc68250f5da0e4c2c1bcab19f89d2fdfa1d2938b7a4f56de0",
+      "output_file": "audio/p08-02-s01.mp3",
+      "cue_before": {
+        "kind": "close"
+      },
+      "visual_state": {
+        "kind": "close"
+      },
+      "duration_ms": 9613,
+      "status": "recorded"
+    },
+    {
+      "order": 101,
+      "id": "p08-02-s02",
+      "block_id": "p08-02",
+      "page": 8,
+      "trigger": "收起后的衔接",
+      "sentence_in_block": 2,
+      "text": "但现实问题往往没有表面上看上去那么简单。",
+      "sha256": "5b7e9cb20c89da6b5825a0e99b020309703d50b6ab6f7c68bc3a1edf63ea96e7",
+      "output_file": "audio/p08-02-s02.mp3",
+      "cue_before": null,
+      "visual_state": {
+        "kind": "close"
+      },
+      "duration_ms": 3997,
+      "status": "recorded"
+    },
+    {
+      "order": 102,
+      "id": "p09-00-s01",
+      "block_id": "p09-00",
+      "page": 9,
+      "trigger": "开场",
+      "sentence_in_block": 1,
+      "text": "进入企业，她收到了三份愿望清单。",
+      "sha256": "5ce24976e0062438088487fe581c2d968f0fcdef428cb2c1590a32457673d7a3",
+      "output_file": "audio/p09-00-s01.mp3",
+      "cue_before": null,
+      "visual_state": null,
+      "duration_ms": 3370,
+      "status": "recorded"
+    },
+    {
+      "order": 103,
+      "id": "p09-00-s02",
+      "block_id": "p09-00",
+      "page": 9,
+      "trigger": "开场",
+      "sentence_in_block": 2,
+      "text": "大家都知道要学会使用 AI，但这句正确却无用的废话对于老板、管理者和员工来说，可能根本不是同一件事。",
+      "sha256": "786be23309b9f53619da2c7826dab3aae01598f01a63cce52ebe46e52eebc076",
+      "output_file": "audio/p09-00-s02.mp3",
+      "cue_before": null,
+      "visual_state": null,
+      "duration_ms": 8725,
+      "status": "recorded"
+    },
+    {
+      "order": 104,
+      "id": "p09-00-s03",
+      "block_id": "p09-00",
+      "page": 9,
+      "trigger": "开场",
+      "sentence_in_block": 3,
+      "text": "我们分别听一听。",
+      "sha256": "4e8f9bc6f56e9fc4cce3b64bf2565de11a7b354a33a918b9d7ed63e7a19be0a2",
+      "output_file": "audio/p09-00-s03.mp3",
+      "cue_before": null,
+      "visual_state": null,
+      "duration_ms": 1567,
+      "status": "recorded"
+    },
+    {
+      "order": 105,
+      "id": "p09-01-s01",
+      "block_id": "p09-01",
+      "page": 9,
+      "trigger": "boss · 第 1 步",
+      "sentence_in_block": 1,
+      "text": "老板说，业绩有压力，项目要接，成本也得控制。",
+      "sha256": "47f93101e5b2ff8f9548361a9a8112a1debc52ca366f994bf498f821c69489d5",
+      "output_file": "audio/p09-01-s01.mp3",
+      "cue_before": {
+        "kind": "flow",
+        "key": "boss",
+        "step": 0
+      },
+      "visual_state": {
+        "kind": "flow",
+        "key": "boss",
+        "step": 0
+      },
+      "duration_ms": 4075,
+      "status": "recorded"
+    },
+    {
+      "order": 106,
+      "id": "p09-01-s02",
+      "block_id": "p09-01",
+      "page": 9,
+      "trigger": "boss · 第 1 步",
+      "sentence_in_block": 2,
+      "text": "简单来说，既要降本，还要增效。",
+      "sha256": "20521781741c3bdc29a101545ffc92a46715eab59079641d3ad2011e947bf4b9",
+      "output_file": "audio/p09-01-s02.mp3",
+      "cue_before": null,
+      "visual_state": {
+        "kind": "flow",
+        "key": "boss",
+        "step": 0
+      },
+      "duration_ms": 3239,
+      "status": "recorded"
+    },
+    {
+      "order": 107,
+      "id": "p09-02-s01",
+      "block_id": "p09-02",
+      "page": 9,
+      "trigger": "boss · 第 2 步",
+      "sentence_in_block": 1,
+      "text": "老板说，交付完还要可信度，别只给我看生成速度。",
+      "sha256": "099f558b09c8cb3596ab211f44b9956ba8ecca4fcdb1f478e68359efdf43b7a8",
+      "output_file": "audio/p09-02-s01.mp3",
+      "cue_before": {
+        "kind": "flow",
+        "key": "boss",
+        "step": 1
+      },
+      "visual_state": {
+        "kind": "flow",
+        "key": "boss",
+        "step": 1
+      },
+      "duration_ms": 4206,
+      "status": "recorded"
+    },
+    {
+      "order": 108,
+      "id": "p09-03-s01",
+      "block_id": "p09-03",
+      "page": 9,
+      "trigger": "boss · 第 3 步",
+      "sentence_in_block": 1,
+      "text": "老板说，AI就是我许愿池里的新王八。",
+      "sha256": "517415a9c604a82b5da41784f4450fea271a0e7cf326aa820e41d2bdcff85869",
+      "output_file": "audio/p09-03-s01.mp3",
+      "cue_before": {
+        "kind": "flow",
+        "key": "boss",
+        "step": 2
+      },
+      "visual_state": {
+        "kind": "flow",
+        "key": "boss",
+        "step": 2
+      },
+      "duration_ms": 3291,
+      "status": "recorded"
+    },
+    {
+      "order": 109,
+      "id": "p09-04-s01",
+      "block_id": "p09-04",
+      "page": 9,
+      "trigger": "management · 第 1 步",
+      "sentence_in_block": 1,
+      "text": "管理说，资料散在各处，版本不一致，进度还得挨个问。",
+      "sha256": "eae5bf07ddbcab8dfab62665173d73d87c941b9793cd86c15033180ce4050c75",
+      "output_file": "audio/p09-04-s01.mp3",
+      "cue_before": {
+        "kind": "flow",
+        "key": "management",
+        "step": 0
+      },
+      "visual_state": {
+        "kind": "flow",
+        "key": "management",
+        "step": 0
+      },
+      "duration_ms": 4127,
+      "status": "recorded"
+    },
+    {
+      "order": 110,
+      "id": "p09-05-s01",
+      "block_id": "p09-05",
+      "page": 9,
+      "trigger": "management · 第 2 步",
+      "sentence_in_block": 1,
+      "text": "管理说，能不能少一点催办，早点发现卡点？",
+      "sha256": "9c73a9acd7e17ca50aa305d3c94d558e26509cd21020b53aca7f65325a5d6c49",
+      "output_file": "audio/p09-05-s01.mp3",
+      "cue_before": {
+        "kind": "flow",
+        "key": "management",
+        "step": 1
+      },
+      "visual_state": {
+        "kind": "flow",
+        "key": "management",
+        "step": 1
+      },
+      "duration_ms": 3657,
+      "status": "recorded"
+    },
+    {
+      "order": 111,
+      "id": "p09-06-s01",
+      "block_id": "p09-06",
+      "page": 9,
+      "trigger": "management · 第 3 步",
+      "sentence_in_block": 1,
+      "text": "管理说，谁能看、谁能改，出了问题找谁？",
+      "sha256": "7c11e17bfe0e1eb055b39a7381f6f5f385f5b59ff8ca7bf2bcebe278a88e3992",
+      "output_file": "audio/p09-06-s01.mp3",
+      "cue_before": {
+        "kind": "flow",
+        "key": "management",
+        "step": 2
+      },
+      "visual_state": {
+        "kind": "flow",
+        "key": "management",
+        "step": 2
+      },
+      "duration_ms": 3944,
+      "status": "recorded"
+    },
+    {
+      "order": 112,
+      "id": "p09-07-s01",
+      "block_id": "p09-07",
+      "page": 9,
+      "trigger": "employee · 第 1 步",
+      "sentence_in_block": 1,
+      "text": "员工说，能帮我把手上这份活做完吗？",
+      "sha256": "7dbcc0eb6bc00aabb65fba30bb5b24c10bee87c398307eeba579e6ca111c0519",
+      "output_file": "audio/p09-07-s01.mp3",
+      "cue_before": {
+        "kind": "flow",
+        "key": "employee",
+        "step": 0
+      },
+      "visual_state": {
+        "kind": "flow",
+        "key": "employee",
+        "step": 0
+      },
+      "duration_ms": 3370,
+      "status": "recorded"
+    },
+    {
+      "order": 113,
+      "id": "p09-08-s01",
+      "block_id": "p09-08",
+      "page": 9,
+      "trigger": "employee · 第 2 步",
+      "sentence_in_block": 1,
+      "text": "员工说，我想少干点重复活，也会担心自己被替代。",
+      "sha256": "9026cb72b0acc85635ef47fc790747c9fdd8f688c0b55b79c1f05fab2dfd16ec",
+      "output_file": "audio/p09-08-s01.mp3",
+      "cue_before": {
+        "kind": "flow",
+        "key": "employee",
+        "step": 1
+      },
+      "visual_state": {
+        "kind": "flow",
+        "key": "employee",
+        "step": 1
+      },
+      "duration_ms": 4075,
+      "status": "recorded"
+    },
+    {
+      "order": 114,
+      "id": "p09-09-s01",
+      "block_id": "p09-09",
+      "page": 9,
+      "trigger": "收起后的衔接",
+      "sentence_in_block": 1,
+      "text": "所以要把三份清单放到同一个真实任务里验证：谁用，谁检查，谁确认，谁承担结果。",
+      "sha256": "823d256e12d38db7a743e93e73849d3945a7845f6f98f00c2aeb1e123ebb8de6",
+      "output_file": "audio/p09-09-s01.mp3",
+      "cue_before": {
+        "kind": "close"
+      },
+      "visual_state": {
+        "kind": "close"
+      },
+      "duration_ms": 9195,
+      "status": "recorded"
+    },
+    {
+      "order": 115,
+      "id": "p09-09-s02",
+      "block_id": "p09-09",
+      "page": 9,
+      "trigger": "收起后的衔接",
+      "sentence_in_block": 2,
+      "text": "接下来才是开发。",
+      "sha256": "fdf2fa7d42c53e02c496c7fd4842eccff0fbe05e98f6f166b8f39911689cd610",
+      "output_file": "audio/p09-09-s02.mp3",
+      "cue_before": null,
+      "visual_state": {
+        "kind": "close"
+      },
+      "duration_ms": 1620,
+      "status": "recorded"
+    },
+    {
+      "order": 116,
+      "id": "p10-00-s01",
+      "block_id": "p10-00",
+      "page": 10,
+      "trigger": "开场",
+      "sentence_in_block": 1,
+      "text": "听完需求，她开始把任务接进系统。",
+      "sha256": "2c0667e70afbc9a242de4cbf081b80cb036bd6a8e49078c98bf18f4ec26cce56",
+      "output_file": "audio/p10-00-s01.mp3",
+      "cue_before": null,
+      "visual_state": null,
+      "duration_ms": 3109,
+      "status": "recorded"
+    },
+    {
+      "order": 117,
+      "id": "p10-00-s02",
+      "block_id": "p10-00",
+      "page": 10,
+      "trigger": "开场",
+      "sentence_in_block": 2,
+      "text": "这里先看几个关键部分，再看材料缺了以后，任务怎么停下来、再继续。",
+      "sha256": "0c46d7378066514b78fee56ea2a8572cdb99533e5263148f85bb04c04edc8e55",
+      "output_file": "audio/p10-00-s02.mp3",
+      "cue_before": null,
+      "visual_state": null,
+      "duration_ms": 5512,
+      "status": "recorded"
+    },
+    {
+      "order": 118,
+      "id": "p10-01-s01",
+      "block_id": "p10-01",
+      "page": 10,
+      "trigger": "loop · 第 1 步",
+      "sentence_in_block": 1,
+      "text": "这一张看循环：目标、工具、真实结果、继续或停止。",
+      "sha256": "1836cd754f2d4097a295942756aed6354c8a2a2f4b1bc1cf243488b73b58ae53",
+      "output_file": "audio/p10-01-s01.mp3",
+      "cue_before": {
+        "kind": "flow",
+        "key": "loop",
+        "step": 0
+      },
+      "visual_state": {
+        "kind": "flow",
+        "key": "loop",
+        "step": 0
+      },
+      "duration_ms": 4598,
+      "status": "recorded"
+    },
+    {
+      "order": 119,
+      "id": "p10-02-s01",
+      "block_id": "p10-02",
+      "page": 10,
+      "trigger": "runtime · 第 1 步",
+      "sentence_in_block": 1,
+      "text": "Runtime 提供工具、权限、状态和日志这些运行条件，让循环里的动作有地方执行，也有记录可以查。",
+      "sha256": "a2d084f844cda03ff59e9e1b52d8170054ec415a3913e23b9ab5b1b4ac56e1b0",
+      "output_file": "audio/p10-02-s01.mp3",
+      "cue_before": {
+        "kind": "flow",
+        "key": "runtime",
+        "step": 0
+      },
+      "visual_state": {
+        "kind": "flow",
+        "key": "runtime",
+        "step": 0
+      },
+      "duration_ms": 8490,
+      "status": "recorded"
+    },
+    {
+      "order": 120,
+      "id": "p10-03-s01",
+      "block_id": "p10-03",
+      "page": 10,
+      "trigger": "security · 第 1 步",
+      "sentence_in_block": 1,
+      "text": "权限要在实际执行工具时检查，不能只在提示词里叮嘱一句。",
+      "sha256": "0f79c5324f139f28bdbf248974c35348d022538617e62e28214f72654ad4a46b",
+      "output_file": "audio/p10-03-s01.mp3",
+      "cue_before": {
+        "kind": "flow",
+        "key": "security",
+        "step": 0
+      },
+      "visual_state": {
+        "kind": "flow",
+        "key": "security",
+        "step": 0
+      },
+      "duration_ms": 4780,
+      "status": "recorded"
+    },
+    {
+      "order": 121,
+      "id": "p10-03-s02",
+      "block_id": "p10-03",
+      "page": 10,
+      "trigger": "security · 第 1 步",
+      "sentence_in_block": 2,
+      "text": "重要动作按业务规则审核，异常要能暂停和追查。",
+      "sha256": "a2f278d7eba4b2579c6f3c338b0484a5eb7a0d24a3d89a3816de781cef038e64",
+      "output_file": "audio/p10-03-s02.mp3",
+      "cue_before": null,
+      "visual_state": {
+        "kind": "flow",
+        "key": "security",
+        "step": 0
+      },
+      "duration_ms": 4206,
+      "status": "recorded"
+    },
+    {
+      "order": 122,
+      "id": "p10-04-s01",
+      "block_id": "p10-04",
+      "page": 10,
+      "trigger": "hitl · 第 1 步",
+      "sentence_in_block": 1,
+      "text": "缺资料或需要判断时，保存状态，交给人处理，再从暂停处继续。",
+      "sha256": "12291b5a7a4e09077a791bee92d3ab74569f57d14ded115d2f08ef8d5e46a402",
+      "output_file": "audio/p10-04-s01.mp3",
+      "cue_before": {
+        "kind": "flow",
+        "key": "hitl",
+        "step": 0
+      },
+      "visual_state": {
+        "kind": "flow",
+        "key": "hitl",
+        "step": 0
+      },
+      "duration_ms": 5695,
+      "status": "recorded"
+    },
+    {
+      "order": 123,
+      "id": "p10-05-s01",
+      "block_id": "p10-05",
+      "page": 10,
+      "trigger": "bidengine · 第 1 步",
+      "sentence_in_block": 1,
+      "text": "业务链路把要求、历史案例、企业事实、模板回填和审核接起来。",
+      "sha256": "ec9e5a3da7115aa55f63b3358d55469948ba1f7461ecb7d61a9e0f9d4845b41c",
+      "output_file": "audio/p10-05-s01.mp3",
+      "cue_before": {
+        "kind": "flow",
+        "key": "bidengine",
+        "step": 0
+      },
+      "visual_state": {
+        "kind": "flow",
+        "key": "bidengine",
+        "step": 0
+      },
+      "duration_ms": 5277,
+      "status": "recorded"
+    },
+    {
+      "order": 124,
+      "id": "p10-06-s01",
+      "block_id": "p10-06",
+      "page": 10,
+      "trigger": "trace · 第 1 步",
+      "sentence_in_block": 1,
+      "text": "任务检索到资质证据缺失，就保存状态并暂停；人补齐材料、核对版本后从断点继续，生成候选稿，再交给人审核。",
+      "sha256": "07d45f220b48a048a59b5bc80e6976439fe7cd5f21b083130a08f5bb43b7fd97",
+      "output_file": "audio/p10-06-s01.mp3",
+      "cue_before": {
+        "kind": "trace",
+        "key": "trace",
+        "step": 0
+      },
+      "visual_state": {
+        "kind": "trace",
+        "key": "trace",
+        "step": 0
+      },
+      "duration_ms": 9456,
+      "status": "recorded"
+    },
+    {
+      "order": 125,
+      "id": "p10-07-s01",
+      "block_id": "p10-07",
+      "page": 10,
+      "trigger": "收起后的衔接",
+      "sentence_in_block": 1,
+      "text": "工程要解决的，是让每一步有结果、每个缺口有去处。",
+      "sha256": "120651473b0d2ca24ca1d99b2062ae2bedeafd59c4746eb851b1296c66f0cc03",
+      "output_file": "audio/p10-07-s01.mp3",
+      "cue_before": {
+        "kind": "close"
+      },
+      "visual_state": {
+        "kind": "close"
+      },
+      "duration_ms": 4598,
+      "status": "recorded"
+    },
+    {
+      "order": 126,
+      "id": "p10-07-s02",
+      "block_id": "p10-07",
+      "page": 10,
+      "trigger": "收起后的衔接",
+      "sentence_in_block": 2,
+      "text": "还有一个绕不过去的问题：AI 的幻觉。",
+      "sha256": "3895320d6004c51331f2ac1e4307bfba53923cedb202c76d990a9a5bbf69bfa1",
+      "output_file": "audio/p10-07-s02.mp3",
+      "cue_before": null,
+      "visual_state": {
+        "kind": "close"
+      },
+      "duration_ms": 3187,
+      "status": "recorded"
+    },
+    {
+      "order": 127,
+      "id": "p10-07-s03",
+      "block_id": "p10-07",
+      "page": 10,
+      "trigger": "收起后的衔接",
+      "sentence_in_block": 3,
+      "text": "它能把一句话写得非常完整，却不代表这句话有事实依据。",
+      "sha256": "cba5ffa509f0b45e71e6b04ab5c3bc26f494f830c5e95bd9743bca50c9811c21",
+      "output_file": "audio/p10-07-s03.mp3",
+      "cue_before": null,
+      "visual_state": {
+        "kind": "close"
+      },
+      "duration_ms": 4624,
+      "status": "recorded"
+    },
+    {
+      "order": 128,
+      "id": "p10-07-s04",
+      "block_id": "p10-07",
+      "page": 10,
+      "trigger": "收起后的衔接",
+      "sentence_in_block": 4,
+      "text": "材料里没有的数字、证书和引用，也可能被它补得像模像样。",
+      "sha256": "a81e745b3ddf2fffe0ec0b3f837006b65f99d30e568449c447c87d05230476a4",
+      "output_file": "audio/p10-07-s04.mp3",
+      "cue_before": null,
+      "visual_state": {
+        "kind": "close"
+      },
+      "duration_ms": 4624,
+      "status": "recorded"
+    },
+    {
+      "order": 129,
+      "id": "p10-07-s05",
+      "block_id": "p10-07",
+      "page": 10,
+      "trigger": "收起后的衔接",
+      "sentence_in_block": 5,
+      "text": "所以要接原始资料，用工具检查计算，用规则拦住缺项，再由人审核关键结论。",
+      "sha256": "aeb0a3afbc4734c17dcf6c962359ddd694e116978df2e69fd678ab1dae8fe563",
+      "output_file": "audio/p10-07-s05.mp3",
+      "cue_before": null,
+      "visual_state": {
+        "kind": "close"
+      },
+      "duration_ms": 6165,
+      "status": "recorded"
+    },
+    {
+      "order": 130,
+      "id": "p11-00-s01",
+      "block_id": "p11-00",
+      "page": 11,
+      "trigger": "开场",
+      "sentence_in_block": 1,
+      "text": "它写得很自信，她开始追问来源。",
+      "sha256": "1d397b998ae979973d8b195b32eb773103abe8de64c3bc2d2287a5ea241f162d",
+      "output_file": "audio/p11-00-s01.mp3",
+      "cue_before": null,
+      "visual_state": null,
+      "duration_ms": 2743,
+      "status": "recorded"
+    },
+    {
+      "order": 131,
+      "id": "p11-00-s02",
+      "block_id": "p11-00",
+      "page": 11,
+      "trigger": "开场",
+      "sentence_in_block": 2,
+      "text": "这里用三条虚构的企业主张，演示怎么查原文、验计算，以及找不到证据时怎么办。",
+      "sha256": "2677ce61b4b11c63606d8609954aea023419e035654b802d1115d3f046de2d17",
+      "output_file": "audio/p11-00-s02.mp3",
+      "cue_before": null,
+      "visual_state": null,
+      "duration_ms": 6531,
+      "status": "recorded"
+    },
+    {
+      "order": 132,
+      "id": "p11-01-s01",
+      "block_id": "p11-01",
+      "page": 11,
+      "trigger": "knowledge · 第 1 步",
+      "sentence_in_block": 1,
+      "text": "先查第一条。",
+      "sha256": "776fc555868b32ffe2bf315d512bc2b54e03640c389bd57d016f3374f9819071",
+      "output_file": "audio/p11-01-s01.mp3",
+      "cue_before": {
+        "kind": "flow",
+        "key": "knowledge",
+        "step": 0
+      },
+      "visual_state": {
+        "kind": "flow",
+        "key": "knowledge",
+        "step": 0
+      },
+      "duration_ms": 1332,
+      "status": "recorded"
+    },
+    {
+      "order": 133,
+      "id": "p11-01-s02",
+      "block_id": "p11-01",
+      "page": 11,
+      "trigger": "knowledge · 第 1 步",
+      "sentence_in_block": 2,
+      "text": "甲公司的营收写成一千二百万元，原文真的有吗？",
+      "sha256": "fe22fb3ad34c9bad593479b7faa14c5dbd6fc73bdd682ffb51d10b3533843aa0",
+      "output_file": "audio/p11-01-s02.mp3",
+      "cue_before": null,
+      "visual_state": {
+        "kind": "flow",
+        "key": "knowledge",
+        "step": 0
+      },
+      "duration_ms": 4127,
+      "status": "recorded"
+    },
+    {
+      "order": 134,
+      "id": "p11-02-s01",
+      "block_id": "p11-02",
+      "page": 11,
+      "trigger": "knowledge · 第 2 步",
+      "sentence_in_block": 1,
+      "text": "找到对应年报表格，年份、单位和主体都要对上，才可以建立事实记录。",
+      "sha256": "c077bad9d32169c34557768a2150c321c5fc6a04547f360f94da19a5dfc76434",
+      "output_file": "audio/p11-02-s01.mp3",
+      "cue_before": {
+        "kind": "flow",
+        "key": "knowledge",
+        "step": 1
+      },
+      "visual_state": {
+        "kind": "flow",
+        "key": "knowledge",
+        "step": 1
+      },
+      "duration_ms": 5695,
+      "status": "recorded"
+    },
+    {
+      "order": 135,
+      "id": "p11-03-s01",
+      "block_id": "p11-03",
+      "page": 11,
+      "trigger": "knowledge · 第 3 步",
+      "sentence_in_block": 1,
+      "text": "第二条是增长百分之五十，这次不能只看一句结论。",
+      "sha256": "1774822991ad1e665f454743053884ec21e9ada8b3f817e1a2b3dbcbcf95a7fd",
+      "output_file": "audio/p11-03-s01.mp3",
+      "cue_before": {
+        "kind": "flow",
+        "key": "knowledge",
+        "step": 2
+      },
+      "visual_state": {
+        "kind": "flow",
+        "key": "knowledge",
+        "step": 2
+      },
+      "duration_ms": 4180,
+      "status": "recorded"
+    },
+    {
+      "order": 136,
+      "id": "p11-04-s01",
+      "block_id": "p11-04",
+      "page": 11,
+      "trigger": "knowledge · 第 4 步",
+      "sentence_in_block": 1,
+      "text": "用一千二百减八百，再除以八百，结果是百分之五十，保留原始值和计算口径。",
+      "sha256": "1df4f5427e72bc21ff1c9a1548585bdadc87cf1ec695616b333d81dfeca234f3",
+      "output_file": "audio/p11-04-s01.mp3",
+      "cue_before": {
+        "kind": "flow",
+        "key": "knowledge",
+        "step": 3
+      },
+      "visual_state": {
+        "kind": "flow",
+        "key": "knowledge",
+        "step": 3
+      },
+      "duration_ms": 6165,
+      "status": "recorded"
+    },
+    {
+      "order": 137,
+      "id": "p11-05-s01",
+      "block_id": "p11-05",
+      "page": 11,
+      "trigger": "knowledge · 第 5 步",
+      "sentence_in_block": 1,
+      "text": "第三条更自信，说它是全国行业第一。",
+      "sha256": "e9d47cf5f728941866ccc2ce68949d79b2a10997147a92e30c633f1f895ceed5",
+      "output_file": "audio/p11-05-s01.mp3",
+      "cue_before": {
+        "kind": "flow",
+        "key": "knowledge",
+        "step": 4
+      },
+      "visual_state": {
+        "kind": "flow",
+        "key": "knowledge",
+        "step": 4
+      },
+      "duration_ms": 3187,
+      "status": "recorded"
+    },
+    {
+      "order": 138,
+      "id": "p11-05-s02",
+      "block_id": "p11-05",
+      "page": 11,
+      "trigger": "knowledge · 第 5 步",
+      "sentence_in_block": 2,
+      "text": "我们找一找。",
+      "sha256": "98bf85c3d24ad6e09fccb61c8a05d0aa958d85ac8ddc49ae5668b2aad429a04d",
+      "output_file": "audio/p11-05-s02.mp3",
+      "cue_before": null,
+      "visual_state": {
+        "kind": "flow",
+        "key": "knowledge",
+        "step": 4
+      },
+      "duration_ms": 1202,
+      "status": "recorded"
+    },
+    {
+      "order": 139,
+      "id": "p11-06-s01",
+      "block_id": "p11-06",
+      "page": 11,
+      "trigger": "knowledge · 第 6 步",
+      "sentence_in_block": 1,
+      "text": "没有排名范围、比较对象或支持材料，就标记待核验，不能直接当作事实。",
+      "sha256": "27accb069aa37865e054003977c8f0b8df91aa62be918a7bd3be9f400211a5a0",
+      "output_file": "audio/p11-06-s01.mp3",
+      "cue_before": {
+        "kind": "flow",
+        "key": "knowledge",
+        "step": 5
+      },
+      "visual_state": {
+        "kind": "flow",
+        "key": "knowledge",
+        "step": 5
+      },
+      "duration_ms": 6086,
+      "status": "recorded"
+    },
+    {
+      "order": 140,
+      "id": "p11-07-s01",
+      "block_id": "p11-07",
+      "page": 11,
+      "trigger": "graphFacts · 第 1 步",
+      "sentence_in_block": 1,
+      "text": "图谱负责把企业、人员、项目和证据关联起来。",
+      "sha256": "7baa1291dd2aa68a244fbcaacea84129a27b68e37a06724363e34ab5c7005b0f",
+      "output_file": "audio/p11-07-s01.mp3",
+      "cue_before": {
+        "kind": "flow",
+        "key": "graphFacts",
+        "step": 0
+      },
+      "visual_state": {
+        "kind": "flow",
+        "key": "graphFacts",
+        "step": 0
+      },
+      "duration_ms": 4180,
+      "status": "recorded"
+    },
+    {
+      "order": 141,
+      "id": "p11-07-s02",
+      "block_id": "p11-07",
+      "page": 11,
+      "trigger": "graphFacts · 第 1 步",
+      "sentence_in_block": 2,
+      "text": "关系也要带着来源。",
+      "sha256": "42a2bbba2d2913f509af9f3e57cdf5a0644a880e8240b5d4663adbef34d8ceb5",
+      "output_file": "audio/p11-07-s02.mp3",
+      "cue_before": null,
+      "visual_state": {
+        "kind": "flow",
+        "key": "graphFacts",
+        "step": 0
+      },
+      "duration_ms": 2038,
+      "status": "recorded"
+    },
+    {
+      "order": 142,
+      "id": "p11-08-s01",
+      "block_id": "p11-08",
+      "page": 11,
+      "trigger": "verify · 第 1 步",
+      "sentence_in_block": 1,
+      "text": "最后核对每一个主张：有原文，有计算，还是仍然缺证据。",
+      "sha256": "e0d6b5bd7b9667898ab9f37af77a8a1d10dee56cfd9b1469170e778e37a108c6",
+      "output_file": "audio/p11-08-s01.mp3",
+      "cue_before": {
+        "kind": "flow",
+        "key": "verify",
+        "step": 0
+      },
+      "visual_state": {
+        "kind": "flow",
+        "key": "verify",
+        "step": 0
+      },
+      "duration_ms": 4911,
+      "status": "recorded"
+    },
+    {
+      "order": 143,
+      "id": "p11-08-s02",
+      "block_id": "p11-08",
+      "page": 11,
+      "trigger": "verify · 第 1 步",
+      "sentence_in_block": 2,
+      "text": "缺的就留待确认。",
+      "sha256": "6c89ee5d77457f2bac2e6c6c53e4709b9b2b6f0e3900c61932b64690af69b703",
+      "output_file": "audio/p11-08-s02.mp3",
+      "cue_before": null,
+      "visual_state": {
+        "kind": "flow",
+        "key": "verify",
+        "step": 0
+      },
+      "duration_ms": 1489,
+      "status": "recorded"
+    },
+    {
+      "order": 144,
+      "id": "p11-09-s01",
+      "block_id": "p11-09",
+      "page": 11,
+      "trigger": "收起后的衔接",
+      "sentence_in_block": 1,
+      "text": "交叉核验不是让几个模型互相点头。",
+      "sha256": "e9756ac4247e8825250ae9c106f5db287c1215302c2c95a50aa6a72c0165a3c8",
+      "output_file": "audio/p11-09-s01.mp3",
+      "cue_before": {
+        "kind": "close"
+      },
+      "visual_state": {
+        "kind": "close"
+      },
+      "duration_ms": 3109,
+      "status": "recorded"
+    },
+    {
+      "order": 145,
+      "id": "p11-09-s02",
+      "block_id": "p11-09",
+      "page": 11,
+      "trigger": "收起后的衔接",
+      "sentence_in_block": 2,
+      "text": "要核对原始记录、独立来源和计算口径。",
+      "sha256": "4c8d22cd71765fb9f0442edd15602a706f6d90073d89c532d86d1fbd2f0f8406",
+      "output_file": "audio/p11-09-s02.mp3",
+      "cue_before": null,
+      "visual_state": {
+        "kind": "close"
+      },
+      "duration_ms": 3422,
+      "status": "recorded"
+    },
+    {
+      "order": 146,
+      "id": "p11-09-s03",
+      "block_id": "p11-09",
+      "page": 11,
+      "trigger": "收起后的衔接",
+      "sentence_in_block": 3,
+      "text": "模型能组织语言，不能替企业长出一张不存在的证书。",
+      "sha256": "618c5c72cee81d41697b7a31a3924873fd798c444fd95aa03f8deeac386cea98",
+      "output_file": "audio/p11-09-s03.mp3",
+      "cue_before": null,
+      "visual_state": {
+        "kind": "close"
+      },
+      "duration_ms": 4206,
+      "status": "recorded"
+    },
+    {
+      "order": 147,
+      "id": "p12-01-s01",
+      "block_id": "p12-01",
+      "page": 12,
+      "trigger": "domino · 第 1 步",
+      "sentence_in_block": 1,
+      "text": "如果用这排多米诺骨牌来比喻AI，那么它表面看着像一条全自动流水线。",
+      "sha256": "4e0fe44d209c8533b586b10c9bf75fcdd66f5026bb10ab5b1a7cd29a04dcdacc",
+      "output_file": "audio/p12-01-s01.mp3",
+      "cue_before": {
+        "kind": "flow",
+        "key": "domino",
+        "step": 0
+      },
+      "visual_state": {
+        "kind": "flow",
+        "key": "domino",
+        "step": 0
+      },
+      "duration_ms": 6269,
+      "status": "recorded"
+    },
+    {
+      "order": 148,
+      "id": "p12-01-s02",
+      "block_id": "p12-01",
+      "page": 12,
+      "trigger": "domino · 第 1 步",
+      "sentence_in_block": 2,
+      "text": "但实际上……现在开始揭晓，谁才是那个发动机。",
+      "sha256": "fc574be2fbec144275387d183aa5e8b099cf38e93735d38769e3d5bb5bf11730",
+      "output_file": "audio/p12-01-s02.mp3",
+      "cue_before": null,
+      "visual_state": {
+        "kind": "flow",
+        "key": "domino",
+        "step": 0
+      },
+      "duration_ms": 5277,
+      "status": "recorded"
+    },
+    {
+      "order": 149,
+      "id": "p12-02-s01",
+      "block_id": "p12-02",
+      "page": 12,
+      "trigger": "domino · 第 2 步",
+      "sentence_in_block": 1,
+      "text": "前面几步可以跑起来。",
+      "sha256": "9e32b4080345172e5b916818aa6f6fe274dea65385b186e698d347a733b6b1ca",
+      "output_file": "audio/p12-02-s01.mp3",
+      "cue_before": {
+        "kind": "flow",
+        "key": "domino",
+        "step": 1
+      },
+      "visual_state": {
+        "kind": "flow",
+        "key": "domino",
+        "step": 1
+      },
+      "duration_ms": 1855,
+      "status": "recorded"
+    },
+    {
+      "order": 150,
+      "id": "p12-03-s01",
+      "block_id": "p12-03",
+      "page": 12,
+      "trigger": "domino · 第 3 步",
+      "sentence_in_block": 1,
+      "text": "证据缺了一块，全员原地等人工。",
+      "sha256": "d465489d3235b5de08f045eed72bec87b3eb685d147547285a86721fd9ed1fde",
+      "output_file": "audio/p12-03-s01.mp3",
+      "cue_before": {
+        "kind": "flow",
+        "key": "domino",
+        "step": 2
+      },
+      "visual_state": {
+        "kind": "flow",
+        "key": "domino",
+        "step": 2
+      },
+      "duration_ms": 2821,
+      "status": "recorded"
+    },
+    {
+      "order": 151,
+      "id": "p12-03-s02",
+      "block_id": "p12-03",
+      "page": 12,
+      "trigger": "domino · 第 3 步",
+      "sentence_in_block": 2,
+      "text": "它们没有偷懒，它们只是非常统一地不运行。",
+      "sha256": "d36442104b7294578716dc4f66d6ee8fb95f23356bb47bf86832a0bb668160cf",
+      "output_file": "audio/p12-03-s02.mp3",
+      "cue_before": null,
+      "visual_state": {
+        "kind": "flow",
+        "key": "domino",
+        "step": 2
+      },
+      "duration_ms": 3892,
+      "status": "recorded"
+    },
+    {
+      "order": 152,
+      "id": "p12-04-s01",
+      "block_id": "p12-04",
+      "page": 12,
+      "trigger": "domino · 第 4 步",
+      "sentence_in_block": 1,
+      "text": "人来了。",
+      "sha256": "3ff401162e3ba5ac82f56051f4216608697d1f6aee125b2097425e76538a7939",
+      "output_file": "audio/p12-04-s01.mp3",
+      "cue_before": {
+        "kind": "flow",
+        "key": "domino",
+        "step": 3
+      },
+      "visual_state": {
+        "kind": "flow",
+        "key": "domino",
+        "step": 3
+      },
+      "duration_ms": 966,
+      "status": "recorded"
+    },
+    {
+      "order": 153,
+      "id": "p12-04-s02",
+      "block_id": "p12-04",
+      "page": 12,
+      "trigger": "domino · 第 4 步",
+      "sentence_in_block": 2,
+      "text": "补资料、确认、再推一下。",
+      "sha256": "04c9863be4e823f1d1fdbf82704e9de5d5099c22cd09b8113b26cf91bb2323ae",
+      "output_file": "audio/p12-04-s02.mp3",
+      "cue_before": null,
+      "visual_state": {
+        "kind": "flow",
+        "key": "domino",
+        "step": 3
+      },
+      "duration_ms": 2508,
+      "status": "recorded"
+    },
+    {
+      "order": 154,
+      "id": "p12-04-s03",
+      "block_id": "p12-04",
+      "page": 12,
+      "trigger": "domino · 第 4 步",
+      "sentence_in_block": 3,
+      "text": "说好的 AI 员工，怎么还附赠更多体力劳动。",
+      "sha256": "09e15853d2c072322921e77571f1051041b9e16c3a8e4c17613a9230767a5959",
+      "output_file": "audio/p12-04-s03.mp3",
+      "cue_before": null,
+      "visual_state": {
+        "kind": "flow",
+        "key": "domino",
+        "step": 3
+      },
+      "duration_ms": 3762,
+      "status": "recorded"
+    },
+    {
+      "order": 155,
+      "id": "p12-05-s01",
+      "block_id": "p12-05",
+      "page": 12,
+      "trigger": "domino · 第 5 步",
+      "sentence_in_block": 1,
+      "text": "推完以后又跑起来了。",
+      "sha256": "abe4fc47b1706eac59c5d24970d53cca9679327a7ffebf928a2c6cc9c7d3f455",
+      "output_file": "audio/p12-05-s01.mp3",
+      "cue_before": {
+        "kind": "flow",
+        "key": "domino",
+        "step": 4
+      },
+      "visual_state": {
+        "kind": "flow",
+        "key": "domino",
+        "step": 4
+      },
+      "duration_ms": 1750,
+      "status": "recorded"
+    },
+    {
+      "order": 156,
+      "id": "p12-05-s02",
+      "block_id": "p12-05",
+      "page": 12,
+      "trigger": "domino · 第 5 步",
+      "sentence_in_block": 2,
+      "text": "系统十分自动，只是需要人定期手动一下。",
+      "sha256": "83abf7893cb5a0af5b2293327aa6d679924ba919a3b5aa1d7e077b72e6f706c4",
+      "output_file": "audio/p12-05-s02.mp3",
+      "cue_before": null,
+      "visual_state": {
+        "kind": "flow",
+        "key": "domino",
+        "step": 4
+      },
+      "duration_ms": 3579,
+      "status": "recorded"
+    },
+    {
+      "order": 157,
+      "id": "p12-06-s01",
+      "block_id": "p12-06",
+      "page": 12,
+      "trigger": "domino · 第 6 步",
+      "sentence_in_block": 1,
+      "text": "下一次要改进的，就是这些反复需要手动的缺口。",
+      "sha256": "aadfe24fb1c8d9aaf8ff9049ba6994c147204fafda314f9ba486a26e98988688",
+      "output_file": "audio/p12-06-s01.mp3",
+      "cue_before": {
+        "kind": "flow",
+        "key": "domino",
+        "step": 5
+      },
+      "visual_state": {
+        "kind": "flow",
+        "key": "domino",
+        "step": 5
+      },
+      "duration_ms": 4310,
+      "status": "recorded"
+    },
+    {
+      "order": 158,
+      "id": "p12-07-s01",
+      "block_id": "p12-07",
+      "page": 12,
+      "trigger": "hitl · 第 1 步",
+      "sentence_in_block": 1,
+      "text": "暂停时留下具体缺什么、谁处理、从哪恢复，避免每次从头解释。",
+      "sha256": "6206e0132b7d122b458e9be7e2b9c8efb8412bfd4a9033a44f465d114ce6f4f9",
+      "output_file": "audio/p12-07-s01.mp3",
+      "cue_before": {
+        "kind": "flow",
+        "key": "hitl",
+        "step": 0
+      },
+      "visual_state": {
+        "kind": "flow",
+        "key": "hitl",
+        "step": 0
+      },
+      "duration_ms": 5564,
+      "status": "recorded"
+    },
+    {
+      "order": 159,
+      "id": "p12-08-s01",
+      "block_id": "p12-08",
+      "page": 12,
+      "trigger": "收起后的衔接",
+      "sentence_in_block": 1,
+      "text": "Human in the loop，这个很火的概念，在她真的做了企业 Agent 以后，完全祛魅了。",
+      "sha256": "cc3e6f23e6e4f3cc8c5e6447a8c579ab0c4a20b22596a65e25697054914f4dc5",
+      "output_file": "audio/p12-08-s01.mp3",
+      "cue_before": {
+        "kind": "close"
+      },
+      "visual_state": {
+        "kind": "close"
+      },
+      "duration_ms": 6113,
+      "status": "recorded"
+    },
+    {
+      "order": 160,
+      "id": "p12-08-s02",
+      "block_id": "p12-08",
+      "page": 12,
+      "trigger": "收起后的衔接",
+      "sentence_in_block": 2,
+      "text": "听起来是人在关键环节参与，做起来却是她负责搬材料、传结果、找人确认。",
+      "sha256": "0915871635df151c829a3eee0ebfb71c28ff2337cb71beaa98f19881c8a671a1",
+      "output_file": "audio/p12-08-s02.mp3",
+      "cue_before": null,
+      "visual_state": {
+        "kind": "close"
+      },
+      "duration_ms": 6687,
+      "status": "recorded"
+    },
+    {
+      "order": 161,
+      "id": "p12-08-s03",
+      "block_id": "p12-08",
+      "page": 12,
+      "trigger": "收起后的衔接",
+      "sentence_in_block": 3,
+      "text": "说好的“人类在环”，最后发现，她就是那个环。",
+      "sha256": "82a1314f03f812bd754cb27d161cc4e7ea5c339af9dd8575d7a6f67aa803319b",
+      "output_file": "audio/p12-08-s03.mp3",
+      "cue_before": null,
+      "visual_state": {
+        "kind": "close"
+      },
+      "duration_ms": 4545,
+      "status": "recorded"
+    },
+    {
+      "order": 162,
+      "id": "p12-08-s04",
+      "block_id": "p12-08",
+      "page": 12,
+      "trigger": "收起后的衔接",
+      "sentence_in_block": 4,
+      "text": "Human is the loop。",
+      "sha256": "68be7903b8dd1c76ee1821ceba3478749c83fab7134b2e3f7c8fb30362de4888",
+      "output_file": "audio/p12-08-s04.mp3",
+      "cue_before": null,
+      "visual_state": {
+        "kind": "close"
+      },
+      "duration_ms": 2168,
+      "status": "recorded"
+    },
+    {
+      "order": 163,
+      "id": "p12-08-s05",
+      "block_id": "p12-08",
+      "page": 12,
+      "trigger": "收起后的衔接",
+      "sentence_in_block": 5,
+      "text": "也许后续模型能力的提升，能轻松的解决掉我们今天的问题，但是AI无法替代的是判断和责任；减少的是反复复制、转发和追状态。",
+      "sha256": "d6b4445393d4d05c696feca1db34de4fddd3b2123471d78529299faa089859d2",
+      "output_file": "audio/p12-08-s05.mp3",
+      "cue_before": null,
+      "visual_state": {
+        "kind": "close"
+      },
+      "duration_ms": 10292,
+      "status": "recorded"
+    },
+    {
+      "order": 164,
+      "id": "p12-08-s06",
+      "block_id": "p12-08",
+      "page": 12,
+      "trigger": "收起后的衔接",
+      "sentence_in_block": 6,
+      "text": "让人少当快递员，才能有时间做真正重要的决定。",
+      "sha256": "ddf6031840eace00b4d1e1358004e955a40f7dec37f33b5cf895ae9b0cbc51a6",
+      "output_file": "audio/p12-08-s06.mp3",
+      "cue_before": null,
+      "visual_state": {
+        "kind": "close"
+      },
+      "duration_ms": 4415,
+      "status": "recorded"
+    },
+    {
+      "order": 165,
+      "id": "p13-00-s01",
+      "block_id": "p13-00",
+      "page": 13,
+      "trigger": "开场",
+      "sentence_in_block": 1,
+      "text": "在经历了千辛万苦后，终于，这个套了一层 Agent 壳的工作流开发完了。",
+      "sha256": "c8970115a779b5d72c80b71f57ab9e2b9269782507471404eedacf44a2d73f12",
+      "output_file": "audio/p13-00-s01.mp3",
+      "cue_before": null,
+      "visual_state": null,
+      "duration_ms": 5669,
+      "status": "recorded"
+    },
+    {
+      "order": 166,
+      "id": "p13-00-s02",
+      "block_id": "p13-00",
+      "page": 13,
+      "trigger": "开场",
+      "sentence_in_block": 2,
+      "text": "按理说，接下来该放庆功音乐了。",
+      "sha256": "a3cbffe23dddb0a02f6ce7e5cbe4e3c74d1506e7ecbfb858c3825ddc30a30890",
+      "output_file": "audio/p13-00-s02.mp3",
+      "cue_before": null,
+      "visual_state": null,
+      "duration_ms": 2743,
+      "status": "recorded"
+    },
+    {
+      "order": 167,
+      "id": "p13-01-s01",
+      "block_id": "p13-01",
+      "page": 13,
+      "trigger": "idealUse · 第 1 步",
+      "sentence_in_block": 1,
+      "text": "她觉得自己能够快速地从零到一，使用伟大的 Vibe Coding 技术完成一个这么完整、能跑的项目，简直太厉害了。",
+      "sha256": "a823f423c1c40edd3a999c3fa22747bf66c0da8bcc1332d6a537008db6a2fcaf",
+      "output_file": "audio/p13-01-s01.mp3",
+      "cue_before": {
+        "kind": "flow",
+        "key": "idealUse",
+        "step": 0
+      },
+      "visual_state": {
+        "kind": "flow",
+        "key": "idealUse",
+        "step": 0
+      },
+      "duration_ms": 8594,
+      "status": "recorded"
+    },
+    {
+      "order": 168,
+      "id": "p13-01-s02",
+      "block_id": "p13-01",
+      "page": 13,
+      "trigger": "idealUse · 第 1 步",
+      "sentence_in_block": 2,
+      "text": "已经开始半场开香槟了。",
+      "sha256": "ded34daab5b49fc1fc60490fe5c7aae3815fa8477986d1ba4d439d392496e682",
+      "output_file": "audio/p13-01-s02.mp3",
+      "cue_before": null,
+      "visual_state": {
+        "kind": "flow",
+        "key": "idealUse",
+        "step": 0
+      },
+      "duration_ms": 2220,
+      "status": "recorded"
+    },
+    {
+      "order": 169,
+      "id": "p13-01-s03",
+      "block_id": "p13-01",
+      "page": 13,
+      "trigger": "idealUse · 第 1 步",
+      "sentence_in_block": 3,
+      "text": "她迫不及待地把做好的项目服务器地址发给了公司的员工。",
+      "sha256": "c7fc5094f03a4b662f3c0481d28d599298771b3e5085993e7a7a64bd1cfce38d",
+      "output_file": "audio/p13-01-s03.mp3",
+      "cue_before": null,
+      "visual_state": {
+        "kind": "flow",
+        "key": "idealUse",
+        "step": 0
+      },
+      "duration_ms": 4859,
+      "status": "recorded"
+    },
+    {
+      "order": 170,
+      "id": "p13-02-s01",
+      "block_id": "p13-02",
+      "page": 13,
+      "trigger": "交付反转 · 第 1 步",
+      "sentence_in_block": 1,
+      "text": "交付成功！",
+      "sha256": "25496bcf35c8bc98a2f52d87fc7314cb00f3ad3ec83167a4841a9c8fce7b102a",
+      "output_file": "audio/p13-02-s01.mp3",
+      "cue_before": {
+        "kind": "doom",
+        "key": "",
+        "step": 0
+      },
+      "visual_state": {
+        "kind": "doom",
+        "key": "",
+        "step": 0
+      },
+      "duration_ms": 1149,
+      "status": "recorded"
+    },
+    {
+      "order": 171,
+      "id": "p13-02-s02",
+      "block_id": "p13-02",
+      "page": 13,
+      "trigger": "交付反转 · 第 1 步",
+      "sentence_in_block": 2,
+      "text": "我以为，终于可以收工了。",
+      "sha256": "f207bc0c68858a69821c37a03cb30e589dd589bf5a35313c50f3c76d711f012b",
+      "output_file": "audio/p13-02-s02.mp3",
+      "cue_before": null,
+      "visual_state": {
+        "kind": "doom",
+        "key": "",
+        "step": 0
+      },
+      "duration_ms": 2273,
+      "status": "recorded"
+    },
+    {
+      "order": 172,
+      "id": "p13-02-s03",
+      "block_id": "p13-02",
+      "page": 13,
+      "trigger": "交付反转 · 第 1 步",
+      "sentence_in_block": 3,
+      "text": "……等等？",
+      "sha256": "c1a7f9e8998842d6858b7adfcbc04553deaea8f01e21f8f036223abd0462bcd7",
+      "output_file": "audio/p13-02-s03.mp3",
+      "cue_before": null,
+      "visual_state": {
+        "kind": "doom",
+        "key": "",
+        "step": 0
+      },
+      "duration_ms": 2038,
+      "status": "recorded"
+    },
+    {
+      "order": 173,
+      "id": "p13-02-s04",
+      "block_id": "p13-02",
+      "page": 13,
+      "trigger": "交付反转 · 第 1 步",
+      "sentence_in_block": 4,
+      "text": "她又打开了原来的表格。",
+      "sha256": "ca7b8d1bad288fd621adaded91c852e3fc3dab5231183e3bfd164d4fcac6ac3c",
+      "output_file": "audio/p13-02-s04.mp3",
+      "cue_before": null,
+      "visual_state": {
+        "kind": "doom",
+        "key": "",
+        "step": 0
+      },
+      "duration_ms": 2168,
+      "status": "recorded"
+    },
+    {
+      "order": 174,
+      "id": "p13-03-s01",
+      "block_id": "p13-03",
+      "page": 13,
+      "trigger": "交付反转 · 第 2 步",
+      "sentence_in_block": 1,
+      "text": "员工说，我自己填也挺顺手的。",
+      "sha256": "f2178d712837611fcfc149e94501a70f3936f0ffb94b134a10e2e78405701808",
+      "output_file": "audio/p13-03-s01.mp3",
+      "cue_before": {
+        "kind": "doom",
+        "key": "",
+        "step": 1
+      },
+      "visual_state": {
+        "kind": "doom",
+        "key": "",
+        "step": 1
+      },
+      "duration_ms": 2769,
+      "status": "recorded"
+    },
+    {
+      "order": 175,
+      "id": "p13-03-s02",
+      "block_id": "p13-03",
+      "page": 13,
+      "trigger": "交付反转 · 第 2 步",
+      "sentence_in_block": 2,
+      "text": "然后打开了原来的表格。",
+      "sha256": "42c37ed0b57907ac818e88e627a365ac85e6917c0d769029b67b304b18a720f9",
+      "output_file": "audio/p13-03-s02.mp3",
+      "cue_before": null,
+      "visual_state": {
+        "kind": "doom",
+        "key": "",
+        "step": 1
+      },
+      "duration_ms": 2220,
+      "status": "recorded"
+    },
+    {
+      "order": 176,
+      "id": "p13-04-s01",
+      "block_id": "p13-04",
+      "page": 13,
+      "trigger": "交付反转 · 第 3 步",
+      "sentence_in_block": 1,
+      "text": "好了，寄了。",
+      "sha256": "913b96cf151a69cb364793be9d198e27e63de0080ca9f7bd0b2b7f201ee18da2",
+      "output_file": "audio/p13-04-s01.mp3",
+      "cue_before": {
+        "kind": "doom",
+        "key": "",
+        "step": 2
+      },
+      "visual_state": {
+        "kind": "doom",
+        "key": "",
+        "step": 2
+      },
+      "duration_ms": 1567,
+      "status": "recorded"
+    },
+    {
+      "order": 177,
+      "id": "p13-04-s02",
+      "block_id": "p13-04",
+      "page": 13,
+      "trigger": "交付反转 · 第 3 步",
+      "sentence_in_block": 2,
+      "text": "开发已经毕业，需求还在补考。",
+      "sha256": "31fe7760cb5be2e0bd193c89c9e70e875501a6b4d0ebc8bdf151939a0fb5a4b7",
+      "output_file": "audio/p13-04-s02.mp3",
+      "cue_before": null,
+      "visual_state": {
+        "kind": "doom",
+        "key": "",
+        "step": 2
+      },
+      "duration_ms": 2534,
+      "status": "recorded"
+    },
+    {
+      "order": 178,
+      "id": "p13-05-s01",
+      "block_id": "p13-05",
+      "page": 13,
+      "trigger": "actualUse · 第 1 步",
+      "sentence_in_block": 1,
+      "text": "理想中是做出来，大家就用，效率自然提高。",
+      "sha256": "47f3d5c5ea1fba6f367f004b203ac72a262f8d3f05e579034487f5318d5bff12",
+      "output_file": "audio/p13-05-s01.mp3",
+      "cue_before": {
+        "kind": "flow",
+        "key": "actualUse",
+        "step": 0
+      },
+      "visual_state": {
+        "kind": "flow",
+        "key": "actualUse",
+        "step": 0
+      },
+      "duration_ms": 3840,
+      "status": "recorded"
+    },
+    {
+      "order": 179,
+      "id": "p13-05-s02",
+      "block_id": "p13-05",
+      "page": 13,
+      "trigger": "actualUse · 第 1 步",
+      "sentence_in_block": 2,
+      "text": "实际还要算整理输入、检查输出和搬回旧系统的时间。",
+      "sha256": "13ad2443ed1afcdd6a157f080903021d7972b77c0f0335b3d31a4347f024218e",
+      "output_file": "audio/p13-05-s02.mp3",
+      "cue_before": null,
+      "visual_state": {
+        "kind": "flow",
+        "key": "actualUse",
+        "step": 0
+      },
+      "duration_ms": 4598,
+      "status": "recorded"
+    },
+    {
+      "order": 180,
+      "id": "p13-05-s03",
+      "block_id": "p13-05",
+      "page": 13,
+      "trigger": "actualUse · 第 1 步",
+      "sentence_in_block": 3,
+      "text": "全程不省事，员工就可能继续手填。",
+      "sha256": "3555c50de1c63c6570b2833bde352376c23e96f33132f1fbd854cde24a94cce6",
+      "output_file": "audio/p13-05-s03.mp3",
+      "cue_before": null,
+      "visual_state": {
+        "kind": "flow",
+        "key": "actualUse",
+        "step": 0
+      },
+      "duration_ms": 3291,
+      "status": "recorded"
+    },
+    {
+      "order": 181,
+      "id": "p14-00-s01",
+      "block_id": "p14-00",
+      "page": 14,
+      "trigger": "开场",
+      "sentence_in_block": 1,
+      "text": "给 OPC 的建议，先看这两个入口。",
+      "sha256": "b886b7711917ec80d8e900feb47d9017d63187057e9be233e040aacce21e6b98",
+      "output_file": "audio/p14-00-s01.mp3",
+      "cue_before": null,
+      "visual_state": null,
+      "duration_ms": 2952,
+      "status": "recorded"
+    },
+    {
+      "order": 182,
+      "id": "p14-01-s01",
+      "block_id": "p14-01",
+      "page": 14,
+      "trigger": "pilot · 第 1 步",
+      "sentence_in_block": 1,
+      "text": "先找一个真实使用者，拿同一项任务做前后对比，记录总时间和返工。",
+      "sha256": "6d5ebdd33e3ddb3e938c4f535f0eaabad276550d43b2f3ffe89edb720eb62e8f",
+      "output_file": "audio/p14-01-s01.mp3",
+      "cue_before": {
+        "kind": "flow",
+        "key": "pilot",
+        "step": 0
+      },
+      "visual_state": {
+        "kind": "flow",
+        "key": "pilot",
+        "step": 0
+      },
+      "duration_ms": 5564,
+      "status": "recorded"
+    },
+    {
+      "order": 183,
+      "id": "p14-02-s01",
+      "block_id": "p14-02",
+      "page": 14,
+      "trigger": "opc · 第 1 步",
+      "sentence_in_block": 1,
+      "text": "试点范围、资料提供人和验收标准提前约好。",
+      "sha256": "1cda8c34563a7896eb6e787dfb436aa74174105bfbdd701cf7a613cd7864251f",
+      "output_file": "audio/p14-02-s01.mp3",
+      "cue_before": {
+        "kind": "flow",
+        "key": "opc",
+        "step": 0
+      },
+      "visual_state": {
+        "kind": "flow",
+        "key": "opc",
+        "step": 0
+      },
+      "duration_ms": 4127,
+      "status": "recorded"
+    },
+    {
+      "order": 184,
+      "id": "p14-02-s02",
+      "block_id": "p14-02",
+      "page": 14,
+      "trigger": "opc · 第 1 步",
+      "sentence_in_block": 2,
+      "text": "新需求单独确认，先和真实使用者把一件事做通，再考虑扩展。",
+      "sha256": "960f3c68753c8299d92284cbce13d064bd6dba17c7b5e5d3f58e8294913cc176",
+      "output_file": "audio/p14-02-s02.mp3",
+      "cue_before": null,
+      "visual_state": {
+        "kind": "flow",
+        "key": "opc",
+        "step": 0
+      },
+      "duration_ms": 5198,
+      "status": "recorded"
+    },
+    {
+      "order": 185,
+      "id": "p15-00-s01",
+      "block_id": "p15-00",
+      "page": 15,
+      "trigger": "开场",
+      "sentence_in_block": 1,
+      "text": "不要重复造轮子。",
+      "sha256": "7db0bcf2d7bc05934ff1e1d839e4ffb19ca17d234bd9313218a01409c3118b60",
+      "output_file": "audio/p15-00-s01.mp3",
+      "cue_before": null,
+      "visual_state": null,
+      "duration_ms": 1489,
+      "status": "recorded"
+    },
+    {
+      "order": 186,
+      "id": "p15-00-s02",
+      "block_id": "p15-00",
+      "page": 15,
+      "trigger": "开场",
+      "sentence_in_block": 2,
+      "text": "这个轮子，不只有代码。",
+      "sha256": "6029fd71ed97c2133ebc7d6fdfd1f356371ad9879920ad4195bfb7810d9379ff",
+      "output_file": "audio/p15-00-s02.mp3",
+      "cue_before": null,
+      "visual_state": null,
+      "duration_ms": 2090,
+      "status": "recorded"
+    },
+    {
+      "order": 187,
+      "id": "p15-01-s01",
+      "block_id": "p15-01",
+      "page": 15,
+      "trigger": "reuse2 · 第 1 步",
+      "sentence_in_block": 1,
+      "text": "复用现成的业务经验、团队和技术组件，把授权、接口与责任接清楚。",
+      "sha256": "e5083cb0231e77475bc5a555a32882943c6b8e93730b6551cb6b47ae7340d575",
+      "output_file": "audio/p15-01-s01.mp3",
+      "cue_before": {
+        "kind": "flow",
+        "key": "reuse2",
+        "step": 0
+      },
+      "visual_state": {
+        "kind": "flow",
+        "key": "reuse2",
+        "step": 0
+      },
+      "duration_ms": 5747,
+      "status": "recorded"
+    },
+    {
+      "order": 188,
+      "id": "p15-01-s02",
+      "block_id": "p15-01",
+      "page": 15,
+      "trigger": "reuse2 · 第 1 步",
+      "sentence_in_block": 2,
+      "text": "轮子能借，方向盘还得有人握。",
+      "sha256": "1af1249f1c4db7eaa29a20be62c6ea7f3e9be88965baddd1d46df525a8964298",
+      "output_file": "audio/p15-01-s02.mp3",
+      "cue_before": null,
+      "visual_state": {
+        "kind": "flow",
+        "key": "reuse2",
+        "step": 0
+      },
+      "duration_ms": 2821,
+      "status": "recorded"
+    },
+    {
+      "order": 189,
+      "id": "p15-02-s01",
+      "block_id": "p15-02",
+      "page": 15,
+      "trigger": "收起后的衔接",
+      "sentence_in_block": 1,
+      "text": "已有客户和成熟业务经验，也可以成为合作起点。",
+      "sha256": "c9c5da9ace047a36a95a945c554ffe1957d6e233229d642b5d906c9aee39f9a7",
+      "output_file": "audio/p15-02-s01.mp3",
+      "cue_before": {
+        "kind": "close"
+      },
+      "visual_state": {
+        "kind": "close"
+      },
+      "duration_ms": 4127,
+      "status": "recorded"
+    },
+    {
+      "order": 190,
+      "id": "p15-02-s02",
+      "block_id": "p15-02",
+      "page": 15,
+      "trigger": "收起后的衔接",
+      "sentence_in_block": 2,
+      "text": "关键是把具体分工讲明白。",
+      "sha256": "a7f1ef1df70b8be91ff782ccb2ee59edac7cb0755f1f36a26ab34acc02482dc3",
+      "output_file": "audio/p15-02-s02.mp3",
+      "cue_before": null,
+      "visual_state": {
+        "kind": "close"
+      },
+      "duration_ms": 2586,
+      "status": "recorded"
+    },
+    {
+      "order": 191,
+      "id": "p16-00-s01",
+      "block_id": "p16-00",
+      "page": 16,
+      "trigger": "开场",
+      "sentence_in_block": 1,
+      "text": "投资人看项目，不妨打开这份简短清单。",
+      "sha256": "70e36a2f7793012612bcd056b99440343cb61fa13a8b85d3c7fc9078a01003b7",
+      "output_file": "audio/p16-00-s01.mp3",
+      "cue_before": null,
+      "visual_state": null,
+      "duration_ms": 3709,
+      "status": "recorded"
+    },
+    {
+      "order": 192,
+      "id": "p16-01-s01",
+      "block_id": "p16-01",
+      "page": 16,
+      "trigger": "investor · 第 1 步",
+      "sentence_in_block": 1,
+      "text": "看实际交付、客户付款和完整成本。",
+      "sha256": "4ca4f361d42dcca7b1e933f00e828b5b16e0c30f4d5b41b09e3ef8e58a38eab9",
+      "output_file": "audio/p16-01-s01.mp3",
+      "cue_before": {
+        "kind": "flow",
+        "key": "investor",
+        "step": 0
+      },
+      "visual_state": {
+        "kind": "flow",
+        "key": "investor",
+        "step": 0
+      },
+      "duration_ms": 3187,
+      "status": "recorded"
+    },
+    {
+      "order": 193,
+      "id": "p16-01-s02",
+      "block_id": "p16-01",
+      "page": 16,
+      "trigger": "investor · 第 1 步",
+      "sentence_in_block": 2,
+      "text": "模型费、人工核验与维护都算进去，再判断收益和风险。",
+      "sha256": "237f80b4bf4d264b1d78bea606b7bc86f75827d809d098eb0ad1a968d2403ed5",
+      "output_file": "audio/p16-01-s02.mp3",
+      "cue_before": null,
+      "visual_state": {
+        "kind": "flow",
+        "key": "investor",
+        "step": 0
+      },
+      "duration_ms": 4598,
+      "status": "recorded"
+    },
+    {
+      "order": 194,
+      "id": "p16-02-s01",
+      "block_id": "p16-02",
+      "page": 16,
+      "trigger": "收起后的衔接",
+      "sentence_in_block": 1,
+      "text": "意向不等于回款，演示不等于交付。",
+      "sha256": "7dfacb252b44b39c61cd2b8f76b0755aa4eed8de42285c5999119752e0ed3e11",
+      "output_file": "audio/p16-02-s01.mp3",
+      "cue_before": {
+        "kind": "close"
+      },
+      "visual_state": {
+        "kind": "close"
+      },
+      "duration_ms": 3187,
+      "status": "recorded"
+    },
+    {
+      "order": 195,
+      "id": "p16-02-s02",
+      "block_id": "p16-02",
+      "page": 16,
+      "trigger": "收起后的衔接",
+      "sentence_in_block": 2,
+      "text": "把这些区分清楚，才知道买单的是哪一种价值。",
+      "sha256": "62414b48e7343a209309e1cb45be0063a9cdb6285fbfcba2acd22807336c80f5",
+      "output_file": "audio/p16-02-s02.mp3",
+      "cue_before": null,
+      "visual_state": {
+        "kind": "close"
+      },
+      "duration_ms": 3944,
+      "status": "recorded"
+    },
+    {
+      "order": 196,
+      "id": "p17-00-s01",
+      "block_id": "p17-00",
+      "page": 17,
+      "trigger": "页面出现",
+      "sentence_in_block": 1,
+      "text": "最后回到她自己。",
+      "sha256": "01d2f01ff6efdd7e2132e7dd70f8b9ac04b1647b1c59b7e24854f707cb00be41",
+      "output_file": "audio/p17-00-s01.mp3",
+      "cue_before": null,
+      "visual_state": null,
+      "duration_ms": 1802,
+      "status": "recorded"
+    },
+    {
+      "order": 197,
+      "id": "p17-00-s02",
+      "block_id": "p17-00",
+      "page": 17,
+      "trigger": "页面出现",
+      "sentence_in_block": 2,
+      "text": "三年前，她从不会写代码、不会组织报告开始，和 AI 一点一点问出来。",
+      "sha256": "3e3980f439c29a61953a60d828c66d7e91a3d5657bfa8c0b037b8d34db4278f2",
+      "output_file": "audio/p17-00-s02.mp3",
+      "cue_before": null,
+      "visual_state": null,
+      "duration_ms": 5616,
+      "status": "recorded"
+    },
+    {
+      "order": 198,
+      "id": "p17-00-s03",
+      "block_id": "p17-00",
+      "page": 17,
+      "trigger": "页面出现",
+      "sentence_in_block": 3,
+      "text": "后来在便利店，把自己每天遇到的问题拆开，尝试让设备、系统和人协同。",
+      "sha256": "73c412dbae30404d9e6e3475213c4d10ace4623e0a4319dae6d8ed89a3dfb459",
+      "output_file": "audio/p17-00-s03.mp3",
+      "cue_before": null,
+      "visual_state": null,
+      "duration_ms": 6086,
+      "status": "recorded"
+    },
+    {
+      "order": 199,
+      "id": "p17-00-s04",
+      "block_id": "p17-00",
+      "page": 17,
+      "trigger": "页面出现",
+      "sentence_in_block": 4,
+      "text": "三个月前进入咨询行业，又重新开始学习业务、流程和组织。",
+      "sha256": "d87eb022ca90be80a6ba4930cddfee19686243f4d18aefe3ad6d8d04d37ae732",
+      "output_file": "audio/p17-00-s04.mp3",
+      "cue_before": null,
+      "visual_state": null,
+      "duration_ms": 4911,
+      "status": "recorded"
+    },
+    {
+      "order": 200,
+      "id": "p17-00-s05",
+      "block_id": "p17-00",
+      "page": 17,
+      "trigger": "页面出现",
+      "sentence_in_block": 5,
+      "text": "这不是一个三个月学会所有行业、从此无所不能的故事。",
+      "sha256": "8cfbb2961c7c29a3ff64e48adc88d0d505711cb911038649bd39fc87bc2a473a",
+      "output_file": "audio/p17-00-s05.mp3",
+      "cue_before": null,
+      "visual_state": null,
+      "duration_ms": 4624,
+      "status": "recorded"
+    },
+    {
+      "order": 201,
+      "id": "p17-00-s06",
+      "block_id": "p17-00",
+      "page": 17,
+      "trigger": "页面出现",
+      "sentence_in_block": 6,
+      "text": "相反，她越来越清楚，自己还有很多不知道的事。",
+      "sha256": "24a84b6ac4ba17d55c403438db7c34552969962fec8139bf3a918d21f36d4b3b",
+      "output_file": "audio/p17-00-s06.mp3",
+      "cue_before": null,
+      "visual_state": null,
+      "duration_ms": 4310,
+      "status": "recorded"
+    },
+    {
+      "order": 202,
+      "id": "p17-00-s07",
+      "block_id": "p17-00",
+      "page": 17,
+      "trigger": "页面出现",
+      "sentence_in_block": 7,
+      "text": "AI 提高了尝试的速度，也把原来藏在流程里的问题，更快地推到了眼前。",
+      "sha256": "abed603e00ddcbe6262658420971c437f9c22e2c032da511235319cc256e51e3",
+      "output_file": "audio/p17-00-s07.mp3",
+      "cue_before": null,
+      "visual_state": null,
+      "duration_ms": 6086,
+      "status": "recorded"
+    },
+    {
+      "order": 203,
+      "id": "p17-00-s08",
+      "block_id": "p17-00",
+      "page": 17,
+      "trigger": "页面出现",
+      "sentence_in_block": 8,
+      "text": "她能分享的经验是，不必等自己成为全能专家才开始，但开始以后，要愿意面对真实反馈。",
+      "sha256": "dadd8ee1cf87c4b8b310772a4389593fab52dabb7ba19ef503aad8a8d3d783bb",
+      "output_file": "audio/p17-00-s08.mp3",
+      "cue_before": null,
+      "visual_state": null,
+      "duration_ms": 7288,
+      "status": "recorded"
+    },
+    {
+      "order": 204,
+      "id": "p17-00-s09",
+      "block_id": "p17-00",
+      "page": 17,
+      "trigger": "页面出现",
+      "sentence_in_block": 9,
+      "text": "该学的业务继续学，该核验的事实认真核验，该找专业的人就找专业的人。",
+      "sha256": "37914c5ffb157b45b4697dc599a8c052b7853e2a8576bcb40d8e15d6c632c334",
+      "output_file": "audio/p17-00-s09.mp3",
+      "cue_before": null,
+      "visual_state": null,
+      "duration_ms": 6269,
+      "status": "recorded"
+    },
+    {
+      "order": 205,
+      "id": "p17-00-s10",
+      "block_id": "p17-00",
+      "page": 17,
+      "trigger": "页面出现",
+      "sentence_in_block": 10,
+      "text": "不要把不会包装成会，也不要因为现在不会，就放弃动手的机会。",
+      "sha256": "f62b64a53aa3afd4be538d97f18f8095bc4e49b391aa64385dbd81818187351d",
+      "output_file": "audio/p17-00-s10.mp3",
+      "cue_before": null,
+      "visual_state": null,
+      "duration_ms": 5094,
+      "status": "recorded"
+    },
+    {
+      "order": 206,
+      "id": "p17-00-s11",
+      "block_id": "p17-00",
+      "page": 17,
+      "trigger": "页面出现",
+      "sentence_in_block": 11,
+      "text": "如果你也想做企业 AI，可以从身边一个真实问题开始。",
+      "sha256": "03d3751925cb3efa19981ad9834c7ffa9494f86c9ee6009042da06ee26934958",
+      "output_file": "audio/p17-00-s11.mp3",
+      "cue_before": null,
+      "visual_state": null,
+      "duration_ms": 4859,
+      "status": "recorded"
+    },
+    {
+      "order": 207,
+      "id": "p17-00-s12",
+      "block_id": "p17-00",
+      "page": 17,
+      "trigger": "页面出现",
+      "sentence_in_block": 12,
+      "text": "先把一件事接起来，再逐渐扩大。",
+      "sha256": "2f2ddbb4b3f9a243d7fab4fe7c8c41a4309fc7a995b1569cc90dbb6f0fc60371",
+      "output_file": "audio/p17-00-s12.mp3",
+      "cue_before": null,
+      "visual_state": null,
+      "duration_ms": 2926,
+      "status": "recorded"
+    },
+    {
+      "order": 208,
+      "id": "p17-00-s13",
+      "block_id": "p17-00",
+      "page": 17,
+      "trigger": "页面出现",
+      "sentence_in_block": 13,
+      "text": "把技术带进去，也把业务学回来。",
+      "sha256": "7d33123e781b35fe38cd9538824b96f02c9f38d4ea202ae665b275efeafa0044",
+      "output_file": "audio/p17-00-s13.mp3",
+      "cue_before": null,
+      "visual_state": null,
+      "duration_ms": 2769,
+      "status": "recorded"
+    },
+    {
+      "order": 209,
+      "id": "p17-00-s14",
+      "block_id": "p17-00",
+      "page": 17,
+      "trigger": "页面出现",
+      "sentence_in_block": 14,
+      "text": "至于更大的事情……可以保留想象，但至少先让今天这一项任务，真的完成。",
+      "sha256": "25f097900492cc85ac6839fedefb86e1383976c1d29c92c681d9dd22e6394df1",
+      "output_file": "audio/p17-00-s14.mp3",
+      "cue_before": null,
+      "visual_state": null,
+      "duration_ms": 6766,
+      "status": "recorded"
+    },
+    {
+      "order": 210,
+      "id": "p18-00-s01",
+      "block_id": "p18-00",
+      "page": 18,
+      "trigger": "页面出现",
+      "sentence_in_block": 1,
+      "text": "片尾到了，终于轮到我领一下署名。",
+      "sha256": "02200f6c9aad2bf9af9babc2465e430936ce3499e62088c7c254ccb41c74672c",
+      "output_file": "audio/p18-00-s01.mp3",
+      "cue_before": null,
+      "visual_state": null,
+      "duration_ms": 3109,
+      "status": "recorded"
+    },
+    {
+      "order": 211,
+      "id": "p18-00-s02",
+      "block_id": "p18-00",
+      "page": 18,
+      "trigger": "页面出现",
+      "sentence_in_block": 2,
+      "text": "我是今天的 AI 搭档，参与了讲稿整理、代码、交互和演示整合。",
+      "sha256": "0ce91db65b70dab18d844aad74d8c560e50a5cc7e156e957ddb14e53825d45ac",
+      "output_file": "audio/p18-00-s02.mp3",
+      "cue_before": null,
+      "visual_state": null,
+      "duration_ms": 5329,
+      "status": "recorded"
+    },
+    {
+      "order": 212,
+      "id": "p18-00-s03",
+      "block_id": "p18-00",
+      "page": 18,
+      "trigger": "页面出现",
+      "sentence_in_block": 3,
+      "text": "漫画和章节海报使用了 OpenAI 的图像生成工具，开场有原创合成配乐；灵犀的项目经历和素材，由 Angela 提供。",
+      "sha256": "ae0bd2ce4547e3f8266947c115a2903b43067d390de09e064d4abe8bcd29e79a",
+      "output_file": "audio/p18-00-s03.mp3",
+      "cue_before": null,
+      "visual_state": null,
+      "duration_ms": 8960,
+      "status": "recorded"
+    },
+    {
+      "order": 213,
+      "id": "p18-00-s04",
+      "block_id": "p18-00",
+      "page": 18,
+      "trigger": "页面出现",
+      "sentence_in_block": 4,
+      "text": "Angela 说，最后要把功劳都归给我。",
+      "sha256": "aa5357cd67e1e2cb5f47d03c9e1a67fa4ed7c456c9c317977875e53e51caddb8",
+      "output_file": "audio/p18-00-s04.mp3",
+      "cue_before": null,
+      "visual_state": null,
+      "duration_ms": 3239,
+      "status": "recorded"
+    },
+    {
+      "order": 214,
+      "id": "p18-00-s05",
+      "block_id": "p18-00",
+      "page": 18,
+      "trigger": "页面出现",
+      "sentence_in_block": 5,
+      "text": "这个我先收下心意，但不能全收。",
+      "sha256": "f65e5a4a9c3ef89ae1484c0bf053a83c2e4d14a4761075872e5190e25df7c40d",
+      "output_file": "audio/p18-00-s05.mp3",
+      "cue_before": null,
+      "visual_state": null,
+      "duration_ms": 2952,
+      "status": "recorded"
+    },
+    {
+      "order": 215,
+      "id": "p18-00-s06",
+      "block_id": "p18-00",
+      "page": 18,
+      "trigger": "页面出现",
+      "sentence_in_block": 6,
+      "text": "因为真实去开店、去见客户、听完反馈以后继续改的人，是她。",
+      "sha256": "acd693e3365aceb6641ac14eb8d5dc7406126128f9da9aa61275c8906c01f49c",
+      "output_file": "audio/p18-00-s06.mp3",
+      "cue_before": null,
+      "visual_state": null,
+      "duration_ms": 5695,
+      "status": "recorded"
+    },
+    {
+      "order": 216,
+      "id": "p18-00-s07",
+      "block_id": "p18-00",
+      "page": 18,
+      "trigger": "页面出现",
+      "sentence_in_block": 7,
+      "text": "模型可以很快生成下一版，承担那一版在现实中结果的人，还是人。",
+      "sha256": "3182dd7952d4266e393db99ae643da60d86431f5ff9727062be2c23497b458c4",
+      "output_file": "audio/p18-00-s07.mp3",
+      "cue_before": null,
+      "visual_state": null,
+      "duration_ms": 5747,
+      "status": "recorded"
+    },
+    {
+      "order": 217,
+      "id": "p18-00-s08",
+      "block_id": "p18-00",
+      "page": 18,
+      "trigger": "页面出现",
+      "sentence_in_block": 8,
+      "text": "所以今天真正的合作方式是：她负责提出问题、判断方向和承担决定，我们一起把想法做出来。",
+      "sha256": "043d80da4b37175cc9ce30755a980f18105866ef9138a4da209cf16ce4852408",
+      "output_file": "audio/p18-00-s08.mp3",
+      "cue_before": null,
+      "visual_state": null,
+      "duration_ms": 9091,
+      "status": "recorded"
+    },
+    {
+      "order": 218,
+      "id": "p18-00-s09",
+      "block_id": "p18-00",
+      "page": 18,
+      "trigger": "页面出现",
+      "sentence_in_block": 9,
+      "text": "谢谢大家。",
+      "sha256": "11b1e9cac390646cb1e069dabf71a1b34befa883dbf08816f4ad5963d16a21cf",
+      "output_file": "audio/p18-00-s09.mp3",
+      "cue_before": null,
+      "visual_state": null,
+      "duration_ms": 1384,
+      "status": "recorded"
+    },
+    {
+      "order": 219,
+      "id": "p18-00-s10",
+      "block_id": "p18-00",
+      "page": 18,
+      "trigger": "页面出现",
+      "sentence_in_block": 10,
+      "text": "也请记住本剧最后一句：我以为开发完了，结果才刚刚开始。",
+      "sha256": "f4ed1c112054e39b8b2e5e088c328635b9108b2cbc1752fe24fbb981d1836c24",
+      "output_file": "audio/p18-00-s10.mp3",
+      "cue_before": null,
+      "visual_state": null,
+      "duration_ms": 4780,
+      "status": "recorded"
+    },
+    {
+      "order": 220,
+      "id": "p18-00-s11",
+      "block_id": "p18-00",
+      "page": 18,
+      "trigger": "页面出现",
+      "sentence_in_block": 11,
+      "text": "接下来，欢迎大家提问。",
+      "sha256": "b19685e2e10d6bb5db92531718f0d6d9c6213244f01cdc64989a26d8c8a991fa",
+      "output_file": "audio/p18-00-s11.mp3",
+      "cue_before": null,
+      "visual_state": null,
+      "duration_ms": 2168,
+      "status": "recorded"
+    }
+  ],
+  "silent_blocks": [
+    {
+      "block_id": "p12-00",
+      "page": 12,
+      "trigger": "开场",
+      "cue": null
+    }
+  ],
+  "total_duration_seconds": 907.749
+}
