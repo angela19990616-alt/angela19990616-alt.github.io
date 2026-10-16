@@ -23,5 +23,5 @@ filters.forEach(button=>button.addEventListener('click',()=>filterProjects(butto
 function restoreHash(){const id=location.hash.replace('#project-','');if(projects.some(p=>p.id===id)){filterProjects('all');selectProject(id,false)}}
 window.addEventListener('hashchange',restoreHash);restoreHash();
 const motion=document.getElementById('motion-toggle');
-motion.addEventListener('click',()=>{const off=document.body.classList.toggle('motion-off');motion.setAttribute('aria-pressed',String(!off));motion.textContent=off?'播放动效 ▷':'暂停动效 Ⅱ'});
+motion.addEventListener('click',()=>{const off=document.body.classList.toggle('motion-off');motion.setAttribute('aria-pressed',String(!off));motion.textContent=off?'播放动效':'暂停动效'});
 window.addEventListener('beforeprint',()=>document.querySelector('.plain-index').open=true);
